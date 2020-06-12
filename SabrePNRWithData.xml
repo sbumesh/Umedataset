@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreatePassengerNameRecordRS xmlns="http://services.sabre.com/sp/reservation/v2_3">
+	<ApplicationResults xmlns="http://services.sabre.com/STL_Payload/v02_01" status="Complete">
+		<Success timeStamp="2019-11-07T13:38:28.416+02:00"/>
+		<Warning type="BusinessLogic" timeStamp="2019-11-07T13:38:13.886+02:00">
+			<SystemSpecificResults>
+				<Message code="WARN.SP.ACCEPTABLE_PRICE_DECREASED FOR REQUEST">OTA_AirPriceLLSRQ: Price for request 1 is below acceptable limit</Message>
+			</SystemSpecificResults>
+		</Warning>
+	</ApplicationResults>
+	<ItineraryRef ID="CPFCVZ"/>
+	<AirBook>
+		<OriginDestinationOption>
+			<FlightSegment ArrivalDateTime="2018-09-05T15:38:00" DepartureDateTime="2018-09-05T12:46:00" eTicket="true" FlightNumber="529" NumberInParty="2" ResBookDesigCode="Y" Status="SS">
+				<DestinationLocation LocationCode="CLT"/>
+				<MarketingAirline Code="AA" FlightNumber="529"/>
+				<MarriageGrp Ind="0" Group="0" Sequence="0"/>
+				<OriginLocation LocationCode="MSY"/>
+			</FlightSegment>
+			<FlightSegment ArrivalDateTime="2018-09-05T19:10:00" DepartureDateTime="2018-09-05T17:59:00" eTicket="true" FlightNumber="2041" NumberInParty="2" ResBookDesigCode="Y" Status="SS">
+				<DestinationLocation LocationCode="ATL"/>
+				<MarketingAirline Code="AA" FlightNumber="2041"/>
+				<MarriageGrp Ind="0" Group="0" Sequence="0"/>
+				<OriginLocation LocationCode="CLT"/>
+			</FlightSegment>
+			<FlightSegment ArrivalDateTime="2018-09-12T15:49:00" DepartureDateTime="2018-09-12T14:13:00" eTicket="true" FlightNumber="1361" NumberInParty="2" ResBookDesigCode="Y" Status="SS">
+				<DestinationLocation LocationCode="DFW"/>
+				<MarketingAirline Code="AA" FlightNumber="1361"/>
+				<MarriageGrp Ind="0" Group="0" Sequence="0"/>
+				<OriginLocation LocationCode="MSY"/>
+			</FlightSegment>
+		</OriginDestinationOption>
+	</AirBook>
+	<AirPrice>
+		<PriceComparison AmountReturned="1865.01" AmountSpecified="2250"/>
+		<PriceQuote>
+			<MiscInformation>
+				<BaggageInfo>
+					<SubCodeProperties RPH="1" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>ALLOWANCE</CommercialNameofBaggageItemType>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0DFAAAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="2" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>OVER100LB 45KG BAGGAGE</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="1X">
+							<Text>OVER 100 POUNDS/45 KILOGRAMS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0DQAEAA</ExtendedSubCodeKey>
+						<SizeWeightInfo>
+							<MinimumWeightInAlternate Units="L">45</MinimumWeightInAlternate>
+							<MinimumWeight Units="L">100</MinimumWeight>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="3" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>UPTO50LB 23KG AND62LI 158LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="23">
+							<Text>UP TO 50 POUNDS/23 KILOGRAMS</Text>
+						</DescriptionOne>
+						<DescriptionTwo Code="6U">
+							<Text>UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+						</DescriptionTwo>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0GOACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">158</MaximumSizeInAlternate>
+							<MaximumSize Units="I">62</MaximumSize>
+							<MaximumWeightInAlternate Units="K">23</MaximumWeightInAlternate>
+							<MaximumWeight Units="L">50</MaximumWeight>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="4" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>CARRYON HAND BAGGAGE</CommercialNameofBaggageItemType>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0LNABAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="5" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>LAPTOP OR HANDBAG UP TO 101LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="4S">
+							<Text>UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0MMACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">101</MaximumSizeInAlternate>
+							<MaximumSize Units="I">40</MaximumSize>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="6" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>CARRY ON UP TO 45 LI 115 LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="4U">
+							<Text>UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0MUACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">115</MaximumSizeInAlternate>
+							<MaximumSize Units="I">45</MaximumSize>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+				</BaggageInfo>
+				<HeaderInformation SolutionSequenceNmbr="1">
+					<DepartureDate>2018-09-05</DepartureDate>
+					<Text>VALIDATING CARRIER - AA</Text>
+					<Text>CHG BEF DEP UP TO USD0.00/CHG AFT DEP UP TO USD0.00/REF BEF DEP</Text>
+					<Text>UP TO USD0.00/REF AFT DEP UP TO USD0.00/SEE RULES</Text>
+					<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+					<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+					<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+					<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+					<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+					<Text>CARRY ON ALLOWANCE</Text>
+					<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+					<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+					<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+					<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+					<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+					<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+					<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+					<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+					<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+					<ValidatingCarrier Code="AA"/>
+				</HeaderInformation>
+				<SolutionInformation SolutionSequenceNmbr="1">
+					<BaseFareCurrencyCode>USD</BaseFareCurrencyCode>
+					<CurrencyCode>USD</CurrencyCode>
+					<GrandTotalEquivFareAmount>1650.24</GrandTotalEquivFareAmount>
+					<GrandTotalTaxes>214.77</GrandTotalTaxes>
+					<RequiresRebook>false</RequiresRebook>
+					<TicketNumber>0</TicketNumber>
+					<TotalAmount>1865.01</TotalAmount>
+				</SolutionInformation>
+				<ValidatingCarrier NewValidatingProcess="true" SolutionSequenceNmbr="1">
+					<SettlementMethod>ARC</SettlementMethod>
+					<Ticket CarrierCode="AA" Type="ETKTPREF" ValidatingCarrierType="Default"/>
+				</ValidatingCarrier>
+			</MiscInformation>
+			<PricedItinerary AlternativePricing="false" CurrencyCode="USD" MultiTicket="false" TotalAmount="1865.01">
+				<AirItineraryPricingInfo SolutionSequenceNmbr="1">
+					<BaggageProvisions RPH="1">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<NumPiecesBDI>0</NumPiecesBDI>
+						<ProvisionType>A</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0DFAAAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="2">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeApplicationIndicator>4</FeeApplicationIndicator>
+						<FeeNotGuaranteedIndicator>N</FeeNotGuaranteedIndicator>
+						<FirstOccurrence>1</FirstOccurrence>
+						<Interlineable>Y</Interlineable>
+						<LastOccurrence>1</LastOccurrence>
+						<PassengerType Code="ADT"/>
+						<PriceInformation>
+							<Base Amount="25.00" CurrencyCode="USD"/>
+							<Equiv Amount="25.00" CurrencyCode="USD"/>
+							<Total>25.00</Total>
+						</PriceInformation>
+						<ProvisionType>C</ProvisionType>
+						<RefundReissue>R</RefundReissue>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0GOACAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="3">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeApplicationIndicator>4</FeeApplicationIndicator>
+						<FeeNotGuaranteedIndicator>N</FeeNotGuaranteedIndicator>
+						<FirstOccurrence>2</FirstOccurrence>
+						<Interlineable>Y</Interlineable>
+						<LastOccurrence>2</LastOccurrence>
+						<PassengerType Code="ADT"/>
+						<PriceInformation>
+							<Base Amount="35.00" CurrencyCode="USD"/>
+							<Equiv Amount="35.00" CurrencyCode="USD"/>
+							<Total>35.00</Total>
+						</PriceInformation>
+						<ProvisionType>C</ProvisionType>
+						<RefundReissue>R</RefundReissue>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0GOACAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="4">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<NumPiecesBDI>2</NumPiecesBDI>
+						<NumPiecesITR>1</NumPiecesITR>
+						<NumPiecesITR>1</NumPiecesITR>
+						<ProvisionType>B</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForAllowance RPH="1">0MMACAA</SubCodeForAllowance>
+							<SubCodeForAllowance RPH="2">0MUACAA</SubCodeForAllowance>
+							<SubCodeForChargesOthers>0LNABAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="5">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeNotGuaranteedIndicator>Y</FeeNotGuaranteedIndicator>
+						<NoChargeNotAvailableIndicator>X</NoChargeNotAvailableIndicator>
+						<PassengerType Code="ADT"/>
+						<PriceInformation>
+							<Base Amount="0.00"/>
+							<Equiv CurrencyCode="USD"/>
+						</PriceInformation>
+						<ProvisionType>E</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0DQAEAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<FareCalculation>
+						<Text>MSY AA X/CLT AA ATL Q MSYATL27.91 902.33/-MSY AA DFW Q27.91 692.09USD1650.24END ZPMSYCLTMSY XFMSY4.5CLT3</Text>
+					</FareCalculation>
+					<FareCalculationBreakdown>
+						<Departure AirlineCode="AA" AirportCode="MSY" ArrivalAirportCode="CLT" ArrivalCityCode="CLT" CityCode="MSY" GenericInd="X"/>
+						<FareBasis FilingCarrier="AA"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</FareCalculationBreakdown>
+					<FareCalculationBreakdown>
+						<Branch FirstJointCarrier="AA" PCC="G7HE"/>
+						<Departure AirlineCode="AA" AirportCode="CLT" ArrivalAirportCode="ATL" ArrivalCityCode="ATL" CityCode="CLT" GenericInd="O"/>
+						<FareBasis Cabin="Y" Code="YA2AA" FareAmount="902.33" FarePassengerType="ADT" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYATL" TripTypeInd="O"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<RuleCategoryIndicator>5</RuleCategoryIndicator>
+						<RuleCategoryIndicator>8</RuleCategoryIndicator>
+						<RuleCategoryIndicator>10</RuleCategoryIndicator>
+						<RuleCategoryIndicator>11</RuleCategoryIndicator>
+						<RuleCategoryIndicator>12</RuleCategoryIndicator>
+						<RuleCategoryIndicator>15</RuleCategoryIndicator>
+						<RuleCategoryIndicator>16</RuleCategoryIndicator>
+						<RuleCategoryIndicator>23</RuleCategoryIndicator>
+					</FareCalculationBreakdown>
+					<FareCalculationBreakdown>
+						<Branch FirstJointCarrier="AA" PCC="G7HE"/>
+						<Departure AirlineCode="AA" AirportCode="MSY" ArrivalAirportCode="DFW" ArrivalCityCode="DFW" CityCode="MSY" GenericInd="O"/>
+						<FareBasis Cabin="Y" Code="YA2AA" FareAmount="692.09" FarePassengerType="ADT" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYDFW" TripTypeInd="O"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<RuleCategoryIndicator>5</RuleCategoryIndicator>
+						<RuleCategoryIndicator>8</RuleCategoryIndicator>
+						<RuleCategoryIndicator>10</RuleCategoryIndicator>
+						<RuleCategoryIndicator>11</RuleCategoryIndicator>
+						<RuleCategoryIndicator>12</RuleCategoryIndicator>
+						<RuleCategoryIndicator>15</RuleCategoryIndicator>
+						<RuleCategoryIndicator>16</RuleCategoryIndicator>
+						<RuleCategoryIndicator>23</RuleCategoryIndicator>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</FareCalculationBreakdown>
+					<ItinTotalFare NonRefundableInd="O">
+						<BaggageInfo>
+							<US_DOT_Disclosure>
+								<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+								<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>CARRY ON ALLOWANCE</Text>
+								<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+								<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+								<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+								<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+								<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+								<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+								<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+								<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+								<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+							</US_DOT_Disclosure>
+						</BaggageInfo>
+						<BaseFare Amount="1650.24" CurrencyCode="USD"/>
+						<Taxes TotalAmount="214.77">
+							<Tax Amount="60.00" TaxCode="YQF" TaxName="SERVICE FEE - FUEL" TicketingTaxCode="YQ"/>
+							<Tax Amount="123.77" TaxCode="US1" TaxName="TRANSPORTATION TAX DOMESTIC WH" TicketingTaxCode="US"/>
+							<Tax Amount="12.30" TaxCode="ZP" TaxName="FLIGHT SEGMENT TAX DOMESTIC" TicketingTaxCode="ZP"/>
+							<Tax Amount="11.20" TaxCode="AY" TaxName="PASSENGER CIVIL AVIATION SECUR" TicketingTaxCode="AY"/>
+							<Tax Amount="7.50" TaxCode="XF" TaxName="PASSENGER FACILITY CHARGE" TicketingTaxCode="XF"/>
+						</Taxes>
+						<TotalFare Amount="1865.01" CurrencyCode="USD"/>
+						<Warnings>
+							<Warning ShortText="BAG ALLOWANCE     -MSYDFW-NIL/AA"/>
+							<Warning ShortText="1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR"/>
+							<Warning ShortText="AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS"/>
+							<Warning ShortText="2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR"/>
+							<Warning ShortText="AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS"/>
+							<Warning ShortText="CARRY ON ALLOWANCE"/>
+							<Warning ShortText="MSYCLT CLTATL MSYDFW-02P/AA"/>
+							<Warning ShortText="01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS"/>
+							<Warning ShortText="01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS"/>
+							<Warning ShortText="ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON"/>
+							<Warning ShortText="FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/"/>
+							<Warning ShortText="CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"/>
+							<Warning ShortText="EMBARGOES-APPLY TO EACH PASSENGER"/>
+							<Warning ShortText="MSYCLT CLTATL MSYDFW-AA"/>
+							<Warning ShortText="OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED"/>
+						</Warnings>
+					</ItinTotalFare>
+					<PassengerTypeQuantity Code="ADT" Quantity="1"/>
+					<PTC_FareBreakdown>
+						<FareBasis FilingCarrier="AA"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</PTC_FareBreakdown>
+					<PTC_FareBreakdown>
+						<Cabin>Y</Cabin>
+						<FareBasis Code="YA2AA" FareAmount="902.33" FarePassengerType="ADT" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYATL"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+					</PTC_FareBreakdown>
+					<PTC_FareBreakdown>
+						<Cabin>Y</Cabin>
+						<FareBasis Code="YA2AA" FareAmount="692.09" FarePassengerType="ADT" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYDFW"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</PTC_FareBreakdown>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="CPBD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="CPAD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="RPBD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="RPAD"/>
+					</SpecificPenalty>
+				</AirItineraryPricingInfo>
+			</PricedItinerary>
+		</PriceQuote>
+	</AirPrice>
+	<AirPrice>
+		<PriceComparison AmountReturned="1865.01" AmountSpecified="2250"/>
+		<PriceQuote>
+			<MiscInformation>
+				<BaggageInfo>
+					<SubCodeProperties RPH="1" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>ALLOWANCE</CommercialNameofBaggageItemType>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0DFAAAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="2" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>OVER100LB 45KG BAGGAGE</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="1X">
+							<Text>OVER 100 POUNDS/45 KILOGRAMS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0DQAEAA</ExtendedSubCodeKey>
+						<SizeWeightInfo>
+							<MinimumWeightInAlternate Units="L">45</MinimumWeightInAlternate>
+							<MinimumWeight Units="L">100</MinimumWeight>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="3" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<CommercialNameofBaggageItemType>UPTO50LB 23KG AND62LI 158LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="23">
+							<Text>UP TO 50 POUNDS/23 KILOGRAMS</Text>
+						</DescriptionOne>
+						<DescriptionTwo Code="6U">
+							<Text>UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+						</DescriptionTwo>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0GOACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">158</MaximumSizeInAlternate>
+							<MaximumSize Units="I">62</MaximumSize>
+							<MaximumWeightInAlternate Units="K">23</MaximumWeightInAlternate>
+							<MaximumWeight Units="L">50</MaximumWeight>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="4" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>CARRYON HAND BAGGAGE</CommercialNameofBaggageItemType>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0LNABAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="5" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>LAPTOP OR HANDBAG UP TO 101LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="4S">
+							<Text>UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0MMACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">101</MaximumSizeInAlternate>
+							<MaximumSize Units="I">40</MaximumSize>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+					<SubCodeProperties RPH="6" SolutionSequenceNmbr="1">
+						<AncillaryFeeGroupCode>BG</AncillaryFeeGroupCode>
+						<AncillaryService SubGroupCode="CY">
+							<Text>CARRY ON HAND BAGGAGE</Text>
+						</AncillaryService>
+						<CommercialNameofBaggageItemType>CARRY ON UP TO 45 LI 115 LCM</CommercialNameofBaggageItemType>
+						<DescriptionOne Code="4U">
+							<Text>UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+						</DescriptionOne>
+						<EMD_Type>4</EMD_Type>
+						<ExtendedSubCodeKey>0MUACAA</ExtendedSubCodeKey>
+						<RFIC>C</RFIC>
+						<SizeWeightInfo>
+							<MaximumSizeInAlternate Units="C">115</MaximumSizeInAlternate>
+							<MaximumSize Units="I">45</MaximumSize>
+						</SizeWeightInfo>
+					</SubCodeProperties>
+				</BaggageInfo>
+				<HeaderInformation SolutionSequenceNmbr="1">
+					<DepartureDate>2018-09-05</DepartureDate>
+					<Text>ADR NOT APPLICABLE - ADT FARE USED - VERIFY RESTRICTIONS</Text>
+					<Text>VALIDATING CARRIER - AA</Text>
+					<Text>CHG BEF DEP UP TO USD0.00/CHG AFT DEP UP TO USD0.00/REF BEF DEP</Text>
+					<Text>UP TO USD0.00/REF AFT DEP UP TO USD0.00/SEE RULES</Text>
+					<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+					<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+					<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+					<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+					<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+					<Text>CARRY ON ALLOWANCE</Text>
+					<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+					<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+					<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+					<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+					<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+					<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+					<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+					<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+					<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+					<ValidatingCarrier Code="AA"/>
+				</HeaderInformation>
+				<SolutionInformation SolutionSequenceNmbr="1">
+					<BaseFareCurrencyCode>USD</BaseFareCurrencyCode>
+					<CurrencyCode>USD</CurrencyCode>
+					<GrandTotalEquivFareAmount>1650.24</GrandTotalEquivFareAmount>
+					<GrandTotalTaxes>214.77</GrandTotalTaxes>
+					<RequiresRebook>false</RequiresRebook>
+					<TicketNumber>0</TicketNumber>
+					<TotalAmount>1865.01</TotalAmount>
+				</SolutionInformation>
+				<ValidatingCarrier NewValidatingProcess="true" SolutionSequenceNmbr="1">
+					<SettlementMethod>ARC</SettlementMethod>
+					<Ticket CarrierCode="AA" Type="ETKTPREF" ValidatingCarrierType="Default"/>
+				</ValidatingCarrier>
+			</MiscInformation>
+			<PricedItinerary AlternativePricing="false" CurrencyCode="USD" MultiTicket="false" TotalAmount="1865.01">
+				<AirItineraryPricingInfo SolutionSequenceNmbr="1">
+					<BaggageProvisions RPH="1">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<NumPiecesBDI>0</NumPiecesBDI>
+						<ProvisionType>A</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0DFAAAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="2">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeApplicationIndicator>4</FeeApplicationIndicator>
+						<FeeNotGuaranteedIndicator>N</FeeNotGuaranteedIndicator>
+						<FirstOccurrence>1</FirstOccurrence>
+						<Interlineable>Y</Interlineable>
+						<LastOccurrence>1</LastOccurrence>
+						<PassengerType Code="ADR"/>
+						<PriceInformation>
+							<Base Amount="25.00" CurrencyCode="USD"/>
+							<Equiv Amount="25.00" CurrencyCode="USD"/>
+							<Total>25.00</Total>
+						</PriceInformation>
+						<ProvisionType>C</ProvisionType>
+						<RefundReissue>R</RefundReissue>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0GOACAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="3">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeApplicationIndicator>4</FeeApplicationIndicator>
+						<FeeNotGuaranteedIndicator>N</FeeNotGuaranteedIndicator>
+						<FirstOccurrence>2</FirstOccurrence>
+						<Interlineable>Y</Interlineable>
+						<LastOccurrence>2</LastOccurrence>
+						<PassengerType Code="ADR"/>
+						<PriceInformation>
+							<Base Amount="35.00" CurrencyCode="USD"/>
+							<Equiv Amount="35.00" CurrencyCode="USD"/>
+							<Total>35.00</Total>
+						</PriceInformation>
+						<ProvisionType>C</ProvisionType>
+						<RefundReissue>R</RefundReissue>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0GOACAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="4">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<NumPiecesBDI>2</NumPiecesBDI>
+						<NumPiecesITR>1</NumPiecesITR>
+						<NumPiecesITR>1</NumPiecesITR>
+						<ProvisionType>B</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForAllowance RPH="1">0MMACAA</SubCodeForAllowance>
+							<SubCodeForAllowance RPH="2">0MUACAA</SubCodeForAllowance>
+							<SubCodeForChargesOthers>0LNABAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<BaggageProvisions RPH="5">
+						<Associations>
+							<CarrierCode RPH="1">AA</CarrierCode>
+							<CarrierCode RPH="2">AA</CarrierCode>
+							<CarrierCode RPH="3">AA</CarrierCode>
+							<CountForSegmentAssociatedID>3</CountForSegmentAssociatedID>
+							<DepartureDate RPH="1">2018-09-05</DepartureDate>
+							<DepartureDate RPH="2">2018-09-05</DepartureDate>
+							<DepartureDate RPH="3">2018-09-12</DepartureDate>
+							<DestinationLocation LocationCode="CLT" RPH="1"/>
+							<DestinationLocation LocationCode="ATL" RPH="2"/>
+							<DestinationLocation LocationCode="DFW" RPH="3"/>
+							<FlightNumber RPH="1">529</FlightNumber>
+							<FlightNumber RPH="2">2041</FlightNumber>
+							<FlightNumber RPH="3">1361</FlightNumber>
+							<OriginLocation LocationCode="MSY" RPH="1"/>
+							<OriginLocation LocationCode="CLT" RPH="2"/>
+							<OriginLocation LocationCode="MSY" RPH="3"/>
+							<PNR_Segment RPH="1">2</PNR_Segment>
+							<PNR_Segment RPH="2">3</PNR_Segment>
+							<PNR_Segment RPH="3">4</PNR_Segment>
+							<ResBookDesigCode RPH="1">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="2">Y</ResBookDesigCode>
+							<ResBookDesigCode RPH="3">Y</ResBookDesigCode>
+							<StatusCode RPH="1">SS</StatusCode>
+							<StatusCode RPH="2">SS</StatusCode>
+							<StatusCode RPH="3">SS</StatusCode>
+						</Associations>
+						<CarrierWhoseBaggageProvisionsApply>AA</CarrierWhoseBaggageProvisionsApply>
+						<Commissionable>N</Commissionable>
+						<FeeNotGuaranteedIndicator>Y</FeeNotGuaranteedIndicator>
+						<NoChargeNotAvailableIndicator>X</NoChargeNotAvailableIndicator>
+						<PassengerType Code="ADR"/>
+						<PriceInformation>
+							<Base Amount="0.00"/>
+							<Equiv CurrencyCode="USD"/>
+						</PriceInformation>
+						<ProvisionType>E</ProvisionType>
+						<SubCodeInfo>
+							<SubCodeForChargesOthers>0DQAEAA</SubCodeForChargesOthers>
+						</SubCodeInfo>
+					</BaggageProvisions>
+					<FareCalculation>
+						<Text>MSY AA X/CLT AA ATL Q MSYATL27.91 902.33/-MSY AA DFW Q27.91 692.09USD1650.24END ZPMSYCLTMSY XFMSY4.5CLT3</Text>
+					</FareCalculation>
+					<FareCalculationBreakdown>
+						<Departure AirlineCode="AA" AirportCode="MSY" ArrivalAirportCode="CLT" ArrivalCityCode="CLT" CityCode="MSY" GenericInd="X"/>
+						<FareBasis FilingCarrier="AA"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</FareCalculationBreakdown>
+					<FareCalculationBreakdown>
+						<Branch FirstJointCarrier="AA" PCC="G7HE"/>
+						<Departure AirlineCode="AA" AirportCode="CLT" ArrivalAirportCode="ATL" ArrivalCityCode="ATL" CityCode="CLT" GenericInd="O"/>
+						<FareBasis Cabin="Y" Code="YA2AA" FareAmount="902.33" FarePassengerType="ADR" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYATL" TripTypeInd="O"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<RuleCategoryIndicator>5</RuleCategoryIndicator>
+						<RuleCategoryIndicator>8</RuleCategoryIndicator>
+						<RuleCategoryIndicator>10</RuleCategoryIndicator>
+						<RuleCategoryIndicator>11</RuleCategoryIndicator>
+						<RuleCategoryIndicator>12</RuleCategoryIndicator>
+						<RuleCategoryIndicator>15</RuleCategoryIndicator>
+						<RuleCategoryIndicator>16</RuleCategoryIndicator>
+						<RuleCategoryIndicator>23</RuleCategoryIndicator>
+					</FareCalculationBreakdown>
+					<FareCalculationBreakdown>
+						<Branch FirstJointCarrier="AA" PCC="G7HE"/>
+						<Departure AirlineCode="AA" AirportCode="MSY" ArrivalAirportCode="DFW" ArrivalCityCode="DFW" CityCode="MSY" GenericInd="O"/>
+						<FareBasis Cabin="Y" Code="YA2AA" FareAmount="692.09" FarePassengerType="ADR" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYDFW" TripTypeInd="O"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<RuleCategoryIndicator>5</RuleCategoryIndicator>
+						<RuleCategoryIndicator>8</RuleCategoryIndicator>
+						<RuleCategoryIndicator>10</RuleCategoryIndicator>
+						<RuleCategoryIndicator>11</RuleCategoryIndicator>
+						<RuleCategoryIndicator>12</RuleCategoryIndicator>
+						<RuleCategoryIndicator>15</RuleCategoryIndicator>
+						<RuleCategoryIndicator>16</RuleCategoryIndicator>
+						<RuleCategoryIndicator>23</RuleCategoryIndicator>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</FareCalculationBreakdown>
+					<ItinTotalFare NonRefundableInd="O">
+						<BaggageInfo>
+							<US_DOT_Disclosure>
+								<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+								<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>CARRY ON ALLOWANCE</Text>
+								<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+								<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+								<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+								<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+								<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+								<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+								<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+								<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+								<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+							</US_DOT_Disclosure>
+						</BaggageInfo>
+						<BaseFare Amount="1650.24" CurrencyCode="USD"/>
+						<Taxes TotalAmount="214.77">
+							<Tax Amount="60.00" TaxCode="YQF" TaxName="SERVICE FEE - FUEL" TicketingTaxCode="YQ"/>
+							<Tax Amount="123.77" TaxCode="US1" TaxName="TRANSPORTATION TAX DOMESTIC WH" TicketingTaxCode="US"/>
+							<Tax Amount="12.30" TaxCode="ZP" TaxName="FLIGHT SEGMENT TAX DOMESTIC" TicketingTaxCode="ZP"/>
+							<Tax Amount="11.20" TaxCode="AY" TaxName="PASSENGER CIVIL AVIATION SECUR" TicketingTaxCode="AY"/>
+							<Tax Amount="7.50" TaxCode="XF" TaxName="PASSENGER FACILITY CHARGE" TicketingTaxCode="XF"/>
+						</Taxes>
+						<TotalFare Amount="1865.01" CurrencyCode="USD"/>
+						<Warnings>
+							<Warning ShortText="BAG ALLOWANCE     -MSYDFW-NIL/AA"/>
+							<Warning ShortText="1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR"/>
+							<Warning ShortText="AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS"/>
+							<Warning ShortText="2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR"/>
+							<Warning ShortText="AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS"/>
+							<Warning ShortText="CARRY ON ALLOWANCE"/>
+							<Warning ShortText="MSYCLT CLTATL MSYDFW-02P/AA"/>
+							<Warning ShortText="01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS"/>
+							<Warning ShortText="01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS"/>
+							<Warning ShortText="ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON"/>
+							<Warning ShortText="FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/"/>
+							<Warning ShortText="CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./"/>
+							<Warning ShortText="EMBARGOES-APPLY TO EACH PASSENGER"/>
+							<Warning ShortText="MSYCLT CLTATL MSYDFW-AA"/>
+							<Warning ShortText="OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED"/>
+							<Warning ShortText="ADR NOT APPLICABLE - ADT FARE USED - VERIFY RESTRICTIONS"/>
+						</Warnings>
+					</ItinTotalFare>
+					<PassengerTypeQuantity Code="ADR" Quantity="1"/>
+					<PTC_FareBreakdown>
+						<FareBasis FilingCarrier="AA"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</PTC_FareBreakdown>
+					<PTC_FareBreakdown>
+						<Cabin>Y</Cabin>
+						<FareBasis Code="YA2AA" FareAmount="902.33" FarePassengerType="ADR" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYATL"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+					</PTC_FareBreakdown>
+					<PTC_FareBreakdown>
+						<Cabin>Y</Cabin>
+						<FareBasis Code="YA2AA" FareAmount="692.09" FarePassengerType="ADR" FareType="P" FilingCarrier="AA" GlobalInd="WH" Market="MSYDFW"/>
+						<FreeBaggageAllowance>NONIL</FreeBaggageAllowance>
+						<Surcharges Ind="Q" Type="UNK">27.91</Surcharges>
+					</PTC_FareBreakdown>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="CPBD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="CPAD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="RPBD"/>
+					</SpecificPenalty>
+					<SpecificPenalty>
+						<PenaltyInformation Amount="0.00" Cat16="false" Currency="USD" NotApplicable="false" Type="RPAD"/>
+					</SpecificPenalty>
+				</AirItineraryPricingInfo>
+			</PricedItinerary>
+		</PriceQuote>
+	</AirPrice>
+	<TravelItineraryRead>
+		<TravelItinerary>
+			<CustomerInfo>
+				<Address>
+					<AddressLine type="O">SABRE TRAVEL</AddressLine>
+					<AddressLine type="O">3150 SABRE DRIVE</AddressLine>
+					<AddressLine type="O">SOUTHLAKE, TX US</AddressLine>
+					<AddressLine type="O">76092</AddressLine>
+				</Address>
+				<ContactNumbers>
+					<ContactNumber LocationCode="DFW" Phone="817-555-1212-H-1.1" RPH="001"/>
+					<ContactNumber LocationCode="DFW" Phone="815-554-1213-W-2.1" RPH="002"/>
+				</ContactNumbers>
+				<PaymentInfo>
+					<Payment>
+						<CC_Info ShortText="CREDIT CARD DATA EXISTS *CC TO DISPLAY">
+							<CardHolderInfo Name="SP TEST">
+								<Address>
+									<AddressLine>2323, NICKLAUS DR</AddressLine>
+									<AddressLine>NEW YORK, NY</AddressLine>
+									<AddressLine>V9B0L2</AddressLine>
+								</Address>
+							</CardHolderInfo>
+						</CC_Info>
+						<Form RPH="001">
+							<Text>CHECK</Text>
+						</Form>
+					</Payment>
+				</PaymentInfo>
+				<PersonName WithInfant="false" NameNumber="01.01" NameReference="ABC123" PassengerType="ADT" RPH="1">
+					<GivenName>MARCIN</GivenName>
+					<Surname>DZIK</Surname>
+				</PersonName>
+				<PersonName WithInfant="false" NameNumber="02.01" NameReference="DEF456" PassengerType="ADR" RPH="2">
+					<GivenName>ALICJA</GivenName>
+					<Surname>MAKOTA</Surname>
+				</PersonName>
+			</CustomerInfo>
+			<ItineraryInfo>
+				<ItineraryPricing>
+					<PriceQuote RPH="1">
+						<MiscInformation>
+							<BaggageFees>
+								<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+								<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>CARRY ON ALLOWANCE</Text>
+								<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+								<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+								<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+								<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+								<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+								<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+								<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+								<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+								<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+							</BaggageFees>
+							<SignatureLine ExpirationDateTime="00:00" Source="SYS" Status="ACTIVE">
+								<Text>G7HE G7HE*ASP 0638/07JUN18</Text>
+							</SignatureLine>
+						</MiscInformation>
+						<PricedItinerary DisplayOnly="false" InputMessage="WPFCKN1.1P1ADTMPC-ANY/BEFDEPRQ" RPH="1" StatusCode="A" TaxExempt="false" ValidatingCarrier="AA">
+							<AirItineraryPricingInfo>
+								<ItinTotalFare>
+									<BaseFare Amount="1650.24" CurrencyCode="USD"/>
+									<Taxes>
+										<Tax Amount="214.77" TaxCode="XT"/>
+										<TaxBreakdownCode TaxPaid="false">60.00YQ</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">123.77US</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">12.30ZP</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">11.20AY</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">7.50XF</TaxBreakdownCode>
+									</Taxes>
+									<TotalFare Amount="1865.01" CurrencyCode="USD"/>
+									<Totals>
+										<BaseFare Amount="1650.24"/>
+										<Taxes>
+											<Tax Amount="214.77"/>
+										</Taxes>
+										<TotalFare Amount="1865.01"/>
+									</Totals>
+								</ItinTotalFare>
+								<PassengerTypeQuantity Code="ADT" Quantity="01"/>
+								<PTC_FareBreakdown>
+									<Endorsements>
+										<Endorsement type="PRICING_PARAMETER">
+											<Text>WPFCK$N1.1$P1ADT$MPC-ANY/BEFDEP$RQ</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>VALIDATING CARRIER - AA</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>CHG BEF DEP UP TO USD0.00/CHG AFT DEP UP TO USD0.00/REF BEF DEP</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>UP TO USD0.00/REF AFT DEP UP TO USD0.00/SEE RULES</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>CARRY ON ALLOWANCE</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+										</Endorsement>
+									</Endorsements>
+									<FareBasis Code="YA2AA/YA2AA/YA2AA"/>
+									<FareCalculation>
+										<Text>MSY AA X/CLT AA ATL Q MSYATL27.91 902.33/-MSY AA DFW Q27.91 692.09USD1650.24END ZPMSYCLTMSY XFMSY4.5CLT3</Text>
+									</FareCalculation>
+									<FareSource>ATPC</FareSource>
+									<FlightSegment ConnectionInd="O" DepartureDateTime="09-05T12:46" FlightNumber="529" ResBookDesigCode="Y" SegmentNumber="1" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="529"/>
+										<OriginLocation LocationCode="MSY"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment ConnectionInd="X" DepartureDateTime="09-05T17:59" FlightNumber="2041" ResBookDesigCode="Y" SegmentNumber="2" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="2041"/>
+										<OriginLocation LocationCode="CLT"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment SegmentNumber="3">
+										<FareBasis Code="VOID"/>
+										<OriginLocation LocationCode="ATL"/>
+									</FlightSegment>
+									<FlightSegment ConnectionInd="O" DepartureDateTime="09-12T14:13" FlightNumber="1361" ResBookDesigCode="Y" SegmentNumber="3" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="1361"/>
+										<OriginLocation LocationCode="MSY"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment>
+										<OriginLocation LocationCode="DFW"/>
+									</FlightSegment>
+								</PTC_FareBreakdown>
+							</AirItineraryPricingInfo>
+						</PricedItinerary>
+						<ResponseHeader>
+							<Text>FARE - PRICE RETAINED</Text>
+							<Text>FARE NOT GUARANTEED UNTIL TICKETED</Text>
+						</ResponseHeader>
+						<PriceQuotePlus DomesticIntlInd="I" PricingStatus="S" VerifyFareCalc="false" ItineraryChanged="false" ManualFare="false" NegotiatedFare="false" SystemIndicator="S" NUCSuppresion="false" SubjToGovtApproval="false" IT_BT_Fare="BT" DisplayOnly="false" DiscountAmount="0">
+							<PassengerInfo>
+								<PassengerData NameNumber="01.01">DZIK/MARCIN</PassengerData>
+							</PassengerInfo>
+							<TicketingInstructionsInfo/>
+						</PriceQuotePlus>
+					</PriceQuote>
+					<PriceQuote RPH="2">
+						<MiscInformation>
+							<BaggageFees>
+								<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+								<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+								<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+								<Text>CARRY ON ALLOWANCE</Text>
+								<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+								<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+								<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+								<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+								<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+								<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+								<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+								<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+								<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+							</BaggageFees>
+							<SignatureLine ExpirationDateTime="00:00" Source="SYS" Status="ACTIVE">
+								<Text>G7HE G7HE*ASP 0638/07JUN18</Text>
+							</SignatureLine>
+						</MiscInformation>
+						<PricedItinerary DisplayOnly="false" InputMessage="WPFCK*VCNSABREAIRONETWOFOURCM*WHOLESALERCONTRACT01N2.1P1ADRMPC-ANYRQ" RPH="2" StatusCode="A" TaxExempt="false" ValidatingCarrier="AA">
+							<AirItineraryPricingInfo>
+								<ItinTotalFare>
+									<BaseFare Amount="1650.24" CurrencyCode="USD"/>
+									<Taxes>
+										<Tax Amount="214.77" TaxCode="XT"/>
+										<TaxBreakdownCode TaxPaid="false">60.00YQ</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">123.77US</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">12.30ZP</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">11.20AY</TaxBreakdownCode>
+										<TaxBreakdownCode TaxPaid="false">7.50XF</TaxBreakdownCode>
+									</Taxes>
+									<TotalFare Amount="1865.01" CurrencyCode="USD"/>
+									<Totals>
+										<BaseFare Amount="1650.24"/>
+										<Taxes>
+											<Tax Amount="214.77"/>
+										</Taxes>
+										<TotalFare Amount="1865.01"/>
+									</Totals>
+								</ItinTotalFare>
+								<PassengerTypeQuantity Code="ADR" Quantity="01"/>
+								<PTC_FareBreakdown>
+									<Endorsements>
+										<Endorsement type="PRICING_PARAMETER">
+											<Text>WPFCK*VCNSABREAIRONETWOFOUR$CM*WHOLESALERCONTRACT01$N2.1$P1ADR$MPC-ANY$RQ</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>ADR NOT APPLICABLE - ADT FARE USED - VERIFY RESTRICTIONS</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>VALIDATING CARRIER - AA</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>CHG BEF DEP UP TO USD0.00/CHG AFT DEP UP TO USD0.00/REF BEF DEP</Text>
+										</Endorsement>
+										<Endorsement type="WARNING">
+											<Text>UP TO USD0.00/REF AFT DEP UP TO USD0.00/SEE RULES</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>BAG ALLOWANCE     -MSYDFW-NIL/AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>1STCHECKED BAG FEE-MSYDFW-USD25.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>2NDCHECKED BAG FEE-MSYDFW-USD35.00/AA/UP TO 50 POUNDS/23 KILOGR</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>AMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>CARRY ON ALLOWANCE</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>MSYCLT CLTATL MSYDFW-02P/AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>01/UP TO 40 LINEAR INCHES/101 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>01/UP TO 45 LINEAR INCHES/115 LINEAR CENTIMETERS</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>EMBARGOES-APPLY TO EACH PASSENGER</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>MSYCLT CLTATL MSYDFW-AA</Text>
+										</Endorsement>
+										<Endorsement type="DOT_BAGGAGE">
+											<Text>OVER 100 POUNDS/45 KILOGRAMS NOT PERMITTED</Text>
+										</Endorsement>
+									</Endorsements>
+									<FareBasis Code="YA2AA/YA2AA/YA2AA"/>
+									<FareCalculation>
+										<Text>MSY AA X/CLT AA ATL Q MSYATL27.91 902.33/-MSY AA DFW Q27.91 692.09USD1650.24END ZPMSYCLTMSY XFMSY4.5CLT3</Text>
+									</FareCalculation>
+									<FareSource>ATPC</FareSource>
+									<FlightSegment ConnectionInd="O" DepartureDateTime="09-05T12:46" FlightNumber="529" ResBookDesigCode="Y" SegmentNumber="1" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="529"/>
+										<OriginLocation LocationCode="MSY"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment ConnectionInd="X" DepartureDateTime="09-05T17:59" FlightNumber="2041" ResBookDesigCode="Y" SegmentNumber="2" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="2041"/>
+										<OriginLocation LocationCode="CLT"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment SegmentNumber="3">
+										<FareBasis Code="VOID"/>
+										<OriginLocation LocationCode="ATL"/>
+									</FlightSegment>
+									<FlightSegment ConnectionInd="O" DepartureDateTime="09-12T14:13" FlightNumber="1361" ResBookDesigCode="Y" SegmentNumber="3" Status="OK">
+										<BaggageAllowance Number="NIL"/>
+										<FareBasis Code="YA2AA"/>
+										<MarketingAirline Code="AA" FlightNumber="1361"/>
+										<OriginLocation LocationCode="MSY"/>
+										<ValidityDates>
+											<NotValidAfter>2019-09-05</NotValidAfter>
+										</ValidityDates>
+									</FlightSegment>
+									<FlightSegment>
+										<OriginLocation LocationCode="DFW"/>
+									</FlightSegment>
+								</PTC_FareBreakdown>
+							</AirItineraryPricingInfo>
+						</PricedItinerary>
+						<ResponseHeader>
+							<Text>FARE - PRICE RETAINED</Text>
+							<Text>FARE USED TO CALCULATE DISCOUNT</Text>
+							<Text>FARE NOT GUARANTEED UNTIL TICKETED</Text>
+						</ResponseHeader>
+						<PriceQuotePlus DomesticIntlInd="I" PricingStatus="S" VerifyFareCalc="false" ItineraryChanged="false" ManualFare="false" NegotiatedFare="false" SystemIndicator="S" NUCSuppresion="false" SubjToGovtApproval="false" IT_BT_Fare="BT" DisplayOnly="false" DiscountAmount="0">
+							<PassengerInfo>
+								<PassengerData NameNumber="02.01">MAKOTA/ALICJA</PassengerData>
+							</PassengerInfo>
+							<TicketingInstructionsInfo/>
+						</PriceQuotePlus>
+					</PriceQuote>
+					<PriceQuoteTotals>
+						<BaseFare Amount="3300.48"/>
+						<Taxes>
+							<Tax Amount="429.54"/>
+						</Taxes>
+						<TotalFare Amount="3730.02"/>
+					</PriceQuoteTotals>
+				</ItineraryPricing>
+				<ReservationItems>
+					<Item RPH="1">
+						<FlightSegment AirMilesFlown="0651" ArrivalDateTime="09-05T15:38" ConnectionInd="O" DayOfWeekInd="3" DepartureDateTime="2018-09-05T12:46" ElapsedTime="01.52" eTicket="true" FlightNumber="0529" NumberInParty="02" ResBookDesigCode="Y" SegmentNumber="0001" SmokingAllowed="false" SpecialMeal="false" Status="HK" StopQuantity="00" IsPast="false">
+							<DestinationLocation LocationCode="CLT"/>
+							<Equipment AirEquipType="319"/>
+							<MarketingAirline Code="AA" FlightNumber="0529"/>
+							<OriginLocation LocationCode="MSY"/>
+							<SupplierRef ID="DCAA*CPFCVZ"/>
+							<UpdatedArrivalTime>09-05T15:38</UpdatedArrivalTime>
+							<UpdatedDepartureTime>09-05T12:46</UpdatedDepartureTime>
+						</FlightSegment>
+					</Item>
+					<Item RPH="2">
+						<FlightSegment AirMilesFlown="0227" ArrivalDateTime="09-05T19:10" ConnectionInd="I" DayOfWeekInd="3" DepartureDateTime="2018-09-05T17:59" ElapsedTime="01.11" eTicket="true" FlightNumber="2041" NumberInParty="02" ResBookDesigCode="Y" SegmentNumber="0002" SmokingAllowed="false" SpecialMeal="false" Status="HK" StopQuantity="00" IsPast="false">
+							<DestinationLocation LocationCode="ATL" Terminal="NORTH TERMINAL" TerminalCode="N"/>
+							<Equipment AirEquipType="319"/>
+							<MarketingAirline Code="AA" FlightNumber="2041"/>
+							<OriginLocation LocationCode="CLT"/>
+							<SupplierRef ID="DCAA*CPFCVZ"/>
+							<UpdatedArrivalTime>09-05T19:10</UpdatedArrivalTime>
+							<UpdatedDepartureTime>09-05T17:59</UpdatedDepartureTime>
+						</FlightSegment>
+					</Item>
+					<Item RPH="3">
+						<MiscSegment DayOfWeekInd="6" DepartureDateTime="09-08" NumberInParty="02" SegmentNumber="0003" Status="GK" Type="OTH" IsPast="false">
+							<OriginLocation LocationCode="ORD"/>
+							<Text>TEST OTH MISCELLANEOUS SEGMENT</Text>
+							<Vendor Code="AS"/>
+						</MiscSegment>
+					</Item>
+					<Item RPH="4">
+						<Arunk SegmentNumber="0004" Type="ARNK"/>
+					</Item>
+					<Item RPH="5">
+						<FlightSegment AirMilesFlown="0448" ArrivalDateTime="09-12T15:49" DayOfWeekInd="3" DepartureDateTime="2018-09-12T14:13" ElapsedTime="01.36" eTicket="true" FlightNumber="1361" NumberInParty="02" ResBookDesigCode="Y" SegmentNumber="0005" SmokingAllowed="false" SpecialMeal="false" Status="HK" StopQuantity="00" IsPast="false">
+							<DestinationLocation LocationCode="DFW"/>
+							<Equipment AirEquipType="S80"/>
+							<MarketingAirline Code="AA" FlightNumber="1361"/>
+							<OriginLocation LocationCode="MSY"/>
+							<SupplierRef ID="DCAA*CPFCVZ"/>
+							<UpdatedArrivalTime>09-12T15:49</UpdatedArrivalTime>
+							<UpdatedDepartureTime>09-12T14:13</UpdatedDepartureTime>
+						</FlightSegment>
+					</Item>
+				</ReservationItems>
+				<Ticketing RPH="01" TicketTimeLimit="TAW/"/>
+			</ItineraryInfo>
+			<ItineraryRef AirExtras="false" ID="CPFCVZ" InhibitCode="U" PartitionID="AA" PrimeHostID="1S">
+				<Header>PRICE QUOTE RECORD EXISTS - SYSTEM</Header>
+				<Source AAA_PseudoCityCode="G7HE" CreateDateTime="2018-06-07T06:38" CreationAgent="ASP" HomePseudoCityCode="G7HE" PseudoCityCode="G7HE" ReceivedFrom="SP TEST" LastUpdateDateTime="2018-06-07T06:38" SequenceNumber="1"/>
+			</ItineraryRef>
+			<RemarkInfo/>
+			<SpecialServiceInfo RPH="001" Type="AFX">
+				<Service SSR_Code="SSR" SSR_Type="OTHS">
+					<Text>/CC MARCIN DZIK</Text>
+				</Service>
+			</SpecialServiceInfo>
+			<SpecialServiceInfo RPH="002" Type="AFX">
+				<Service SSR_Code="SSR" SSR_Type="OTHS">
+					<Text>/CC ALICJA MAKOTA</Text>
+				</Service>
+			</SpecialServiceInfo>
+			<SpecialServiceInfo RPH="003" Type="AFX">
+				<Service SSR_Code="SSR" SSR_Type="DOCS">
+					<PersonName NameNumber="01.01">DZIK/MARCIN</PersonName>
+					<Text>AA HK1/DB/01JAN2001/M/DZIK/MARCIN</Text>
+				</Service>
+			</SpecialServiceInfo>
+			<SpecialServiceInfo RPH="004" Type="AFX">
+				<Service SSR_Code="SSR" SSR_Type="DOCS">
+					<PersonName NameNumber="02.01">MAKOTA/ALICJA</PersonName>
+					<Text>AA HK1/DB/02FEB2002/F/MAKOTA/ALICJA</Text>
+				</Service>
+			</SpecialServiceInfo>
+		</TravelItinerary>
+	</TravelItineraryRead>
+</CreatePassengerNameRecordRS>
