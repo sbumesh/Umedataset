@@ -1,0 +1,125 @@
+<GetElectronicDocumentRS Version="1.0.0" xmlns="http://www.sabre.com/ns/Ticketing/EDoc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sabre.com/ns/Ticketing/EDoc TKT_ElectronicDocumentServices_v.1.0.0.xsd">
+    <STL:STL_Header.RS timeStamp="2017-10-18T11:43:19" xmlns:STL="http://www.sabre.com/ns/Ticketing/EDocStl">
+    <STL:OrchestrationID seq="0">TKTHLI702-13112-423627255-1508344999556-9-edoc:0</STL:OrchestrationID>
+    <STL:Results>
+        <STL:Success>
+            <STL:System>TKT-DS</STL:System>
+            <STL:Source>EDOC</STL:Source>
+        </STL:Success>
+    </STL:Results>
+    </STL:STL_Header.RS>
+        <Agent sine="ATW" type="GDS">
+            <TicketingProvider>AA</TicketingProvider>
+            <WorkLocation>31B1</WorkLocation>
+            <HomeLocation>AEP</HomeLocation>
+            <IsoCountryCode>AR</IsoCountryCode>
+            <IataNumber>55943613</IataNumber>
+            <CRSCode>1536</CRSCode>
+        </Agent>
+        <TransactionInfo sequence="1">
+            <LocalDateTime>2017-10-18T11:43:19.969-05:00</LocalDateTime>
+            <SystemDateTime>2017-10-18T11:43:19.969-05:00</SystemDateTime>
+            <SystemProvider>1S</SystemProvider>
+        </TransactionInfo>
+	<DocumentDetailsDisplay>
+            <Ticket number="0015697646540" type="TKT">
+                <Details>
+                    <Reservation>
+                        <Sabre>JKMSTB</Sabre>
+                        <OtherSystem>JKMSTB</OtherSystem>
+                    </Reservation>
+                    <LocalIssueDateTime>2017-10-18T00:00:00.000-00:00</LocalIssueDateTime>
+                    <AgencyBillingNumber>1234321234</AgencyBillingNumber>
+                    <FareCalculationPricing>2</FareCalculationPricing>
+                </Details>
+                <Customer>
+                    <Traveler>
+                        <Name>ARTWO SOATEST</Name>
+                        <FirstName>ARTWO</FirstName>
+                        <LastName>SOATEST</LastName>
+                    </Traveler>
+                </Customer>
+                <ServiceCoupon coupon="1">
+                    <MarketingProvider>AA</MarketingProvider>
+                    <MarketingFlightNumber>996</MarketingFlightNumber>
+                    <OperatingProvider>AA</OperatingProvider>
+                    <ClassOfService name="J">J</ClassOfService>
+                    <FareBasis>J1NFFSN5</FareBasis>
+                    <StartLocation>EZE</StartLocation>
+                    <StartDateTime>2017-11-07T21:00:00</StartDateTime>
+                    <EndLocation>DFW</EndLocation>
+                    <NotValidAfterDate>2017-11-07</NotValidAfterDate>
+                    <BookingStatus>OK</BookingStatus>
+                    <CurrentStatus>OK</CurrentStatus>
+                    <BagAllowance>2PC</BagAllowance>
+                </ServiceCoupon>
+                <Amounts>
+                    <New>
+                        <Base>
+                            <Amount currencyCode="USD" decimalPlace="2">6170.00</Amount>
+                            <Text>6170.00</Text>
+                        </Base>
+                        <Equivalent>
+                            <Amount currencyCode="ARS" decimalPlace="2">108284.00</Amount>
+                            <Text>108284.00</Text>
+                        </Equivalent>
+                        <Total>
+                            <Amount currencyCode="ARS" decimalPlace="2">115425.00</Amount>
+                            <Text>115425.00</Text>
+                        </Total>
+                    </New>
+                    <CommissionDetails>
+                        <Commission>
+                            <Amount decimalPlace="2">10828.40</Amount>
+                            <PercentageRate>10.00</PercentageRate>
+                            <Text>01000</Text>
+                        </Commission>
+                    </CommissionDetails>
+                </Amounts>
+                <Taxes>
+                    <New>
+                        <Tax code="AR">
+                            <Amount currencyCode="ARS" decimalPlace="2">5414.20</Amount>
+                        </Tax>
+                        <Tax code="XR">
+                            <Amount currencyCode="ARS" decimalPlace="2">771.00</Amount>
+                        </Tax>
+                        <Tax code="TQ">
+                            <Amount currencyCode="ARS" decimalPlace="2">175.50</Amount>
+                        </Tax>
+                        <Tax code="QO">
+                            <Amount currencyCode="ARS" decimalPlace="2">175.50</Amount>
+                        </Tax>
+                        <Tax code="US">
+                            <Amount currencyCode="ARS" decimalPlace="2">315.90</Amount>
+                        </Tax>
+                        <Tax code="YC">
+                            <Amount currencyCode="ARS" decimalPlace="2">96.50</Amount>
+                        </Tax>
+                        <Tax code="XY">
+                            <Amount currencyCode="ARS" decimalPlace="2">122.90</Amount>
+                        </Tax>
+                        <Tax code="XA">
+                            <Amount currencyCode="ARS" decimalPlace="2">69.50</Amount>
+                        </Tax>
+                    </New>
+                </Taxes>
+                <Payment sequence="1" type="CC">
+                    <Total>
+                        <Amount currencyCode="ARS" decimalPlace="0">0</Amount>
+                    </Total>
+                    <Card cardType="VI">
+                        <MaskedCardNumber>XXXXXXXXXXXX0001</MaskedCardNumber>
+                        <ExpireDate>0319</ExpireDate>
+                        <ApprovalCode source="M">REWREW</ApprovalCode>
+                    </Card>
+                </Payment>
+                <Remark>
+                    <Endorsements sequence="0">CUIT30639085143</Endorsements>
+                </Remark>
+                <FareCalculation>
+                    <New>BUE AA DFW Q430.00 5740.00NUC6170.00END ROE1.00 XT175.50TQ175.50QO315.90US96.50YC122.90XY69.50XA</New>
+                </FareCalculation>
+            </Ticket>
+        </DocumentDetailsDisplay>
+</GetElectronicDocumentRS>
