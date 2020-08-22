@@ -1,0 +1,545 @@
+{
+  "groupedItineraryResponse": {
+    "groupedItineraryResponse": {
+      "fareComponentDescs": [
+        {
+          "applicablePricingCategories": "2 4 5 6 7 8 10 11 12 15 16 18",
+          "direction": "WH",
+          "directionality": "FROM",
+          "fareAmount": 171.16,
+          "fareBasisCode": "N0AHZSB1",
+          "fareCurrency": "USD",
+          "farePassengerType": "ADT",
+          "governingCarrier": "AA",
+          "id": 1,
+          "notValidAfter": "2019-06-22",
+          "notValidBefore": "2019-06-22",
+          "oneWayFare": true,
+          "publishedFareAmount": 171.16,
+          "segments": [
+            {
+              "segment": {
+                "stopover": true
+              }
+            }
+          ],
+          "vendorCode": "ATP"
+        },
+        {
+          "applicablePricingCategories": "2 4 5 6 7 8 10 11 12 15 16 18",
+          "direction": "WH",
+          "directionality": "FROM",
+          "fareAmount": 171.16,
+          "fareBasisCode": "N0AHZSB5",
+          "fareCurrency": "USD",
+          "farePassengerType": "ADT",
+          "governingCarrier": "AA",
+          "id": 2,
+          "notValidAfter": "2019-06-23",
+          "notValidBefore": "2019-06-23",
+          "oneWayFare": true,
+          "publishedFareAmount": 171.16,
+          "segments": [
+            {
+              "segment": {}
+            },
+            {
+              "segment": {}
+            }
+          ],
+          "vendorCode": "ATP"
+        }
+      ],
+      "itineraryGroups": [
+        {
+          "groupDescription": {
+            "legDescriptions": [
+              {
+                "arrivalLocation": "LAX",
+                "departureDate": "2019-06-22",
+                "departureLocation": "JFK"
+              },
+              {
+                "arrivalLocation": "LGA",
+                "departureDate": "2019-06-23",
+                "departureLocation": "LAX"
+              }
+            ]
+          },
+          "itineraries": [
+            {
+              "id": 1,
+              "legs": [
+                {
+                  "ref": 1
+                },
+                {
+                  "ref": 2
+                }
+              ],
+              "pricingInformation": [
+                {
+                  "fare": {
+                    "eTicketable": true,
+                    "governingCarriers": "AA AA",
+                    "offerItemId": "do26pq4jwjsfv46u20-1-1",
+                    "passengerInfoList": [
+                      {
+                        "passengerInfo": {
+                          "currencyConversion": {
+                            "exchangeRateUsed": 110.80692755,
+                            "from": "USD",
+                            "to": "JPY"
+                          },
+                          "fareComponents": [
+                            {
+                              "ref": 1,
+                              "segments": [
+                                {
+                                  "segment": {
+                                    "availabilityBreak": true,
+                                    "bookingCode": "B",
+                                    "cabinCode": "Y",
+                                    "mealCode": "S",
+                                    "seatsAvailable": 9
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "ref": 2,
+                              "segments": [
+                                {
+                                  "segment": {
+                                    "bookingCode": "B",
+                                    "cabinCode": "Y",
+                                    "mealCode": "L",
+                                    "seatsAvailable": 9
+                                  }
+                                },
+                                {
+                                  "segment": {
+                                    "availabilityBreak": true,
+                                    "bookingCode": "B",
+                                    "cabinCode": "Y",
+                                    "seatsAvailable": 9
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "fareMessages": [
+                            {
+                              "carrier": "AA",
+                              "code": "0",
+                              "info": "NONREF/NOCHG/BESH/NOSEAT",
+                              "type": "N"
+                            },
+                            {
+                              "code": "0",
+                              "info": "VALIDATING CARRIER - AA",
+                              "type": "W"
+                            }
+                          ],
+                          "nonRefundable": true,
+                          "passengerNumber": 1,
+                          "passengerTotalFare": {
+                            "baseFareAmount": 342.32,
+                            "baseFareCurrency": "USD",
+                            "commissionAmount": 0,
+                            "commissionPercentage": 0,
+                            "constructionAmount": 342.32,
+                            "constructionCurrency": "USD",
+                            "currency": "JPY",
+                            "equivalentAmount": 38000,
+                            "equivalentCurrency": "JPY",
+                            "exchangeRateOne": 1,
+                            "totalFare": 45020,
+                            "totalTaxAmount": 7020
+                          },
+                          "passengerType": "ADT",
+                          "taxSummaries": [
+                            {
+                              "ref": 3
+                            },
+                            {
+                              "ref": 1
+                            },
+                            {
+                              "ref": 4
+                            },
+                            {
+                              "ref": 2
+                            }
+                          ],
+                          "taxes": [
+                            {
+                              "ref": 4
+                            },
+                            {
+                              "ref": 6
+                            },
+                            {
+                              "ref": 1
+                            },
+                            {
+                              "ref": 7
+                            },
+                            {
+                              "ref": 8
+                            },
+                            {
+                              "ref": 5
+                            },
+                            {
+                              "ref": 3
+                            },
+                            {
+                              "ref": 2
+                            },
+                            {
+                              "ref": 9
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "serviceId": "do26pq4jwjsfv46u20-1-1-1",
+                    "totalFare": {
+                      "baseFareAmount": 342.32,
+                      "baseFareCurrency": "USD",
+                      "constructionAmount": 342.32,
+                      "constructionCurrency": "USD",
+                      "currency": "JPY",
+                      "equivalentAmount": 38000,
+                      "equivalentCurrency": "JPY",
+                      "totalPrice": 45020,
+                      "totalTaxAmount": 7020
+                    },
+                    "validatingCarrierCode": "AA",
+                    "validatingCarriers": [],
+                    "vita": true
+                  },
+                  "offer": {
+                    "offerId": "do26pq4jwjsfv46u20-1",
+                    "source": "ATPCO",
+                    "timeToLive": 900
+                  },
+                  "pricingSubsource": "MIP"
+                }
+              ],
+              "pricingSource": "ADVJR1"
+            }
+          ]
+        }
+      ],
+      "legDescs": [
+        {
+          "id": 1,
+          "schedules": [
+            {
+              "ref": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "schedules": [
+            {
+              "ref": 2
+            },
+            {
+              "ref": 3
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "code": "TRANSACTIONID",
+          "severity": "Info",
+          "text": "1482130224109631664",
+          "type": "WORKERTHREAD"
+        },
+        {
+          "code": "TTFHLI700",
+          "severity": "Info",
+          "text": "27038",
+          "type": "SERVER"
+        },
+        {
+          "code": "RULEID",
+          "severity": "Info",
+          "text": "65863",
+          "type": "DRE"
+        },
+        {
+          "code": "RULEID",
+          "severity": "Info",
+          "text": "65866",
+          "type": "DEFAULT"
+        }
+      ],
+      "scheduleDescs": [
+        {
+          "arrival": {
+            "airport": "LAX",
+            "city": "LAX",
+            "country": "US",
+            "dateAdjustment": 1,
+            "state": "CA",
+            "terminal": "0",
+            "time": "00:43:00-08:00"
+          },
+          "carrier": {
+            "alliances": "OW ",
+            "equipment": {
+              "code": "32B",
+              "typeForFirstLeg": "N",
+              "typeForLastLeg": "N"
+            },
+            "marketing": "AA",
+            "marketingFlightNumber": 185,
+            "operating": "AA",
+            "operatingFlightNumber": 185
+          },
+          "departure": {
+            "airport": "JFK",
+            "city": "NYC",
+            "country": "US",
+            "state": "NY",
+            "terminal": "8",
+            "time": "21:15:00-05:00"
+          },
+          "dotRating": "6",
+          "eTicketable": true,
+          "frequency": "SMTWTF*",
+          "id": 1,
+          "stopCount": 0,
+          "totalMilesFlown": 2475
+        },
+        {
+          "arrival": {
+            "airport": "IND",
+            "city": "IND",
+            "country": "US",
+            "state": "IN",
+            "time": "17:08:00-05:00"
+          },
+          "carrier": {
+            "alliances": "OW ",
+            "equipment": {
+              "code": "319",
+              "typeForFirstLeg": "N",
+              "typeForLastLeg": "N"
+            },
+            "marketing": "AA",
+            "marketingFlightNumber": 488,
+            "operating": "AA",
+            "operatingFlightNumber": 488
+          },
+          "departure": {
+            "airport": "LAX",
+            "city": "LAX",
+            "country": "US",
+            "state": "CA",
+            "terminal": "0",
+            "time": "09:50:00-08:00"
+          },
+          "dotRating": "7",
+          "eTicketable": true,
+          "frequency": "SMTWTFS",
+          "id": 2,
+          "stopCount": 0,
+          "totalMilesFlown": 1814
+        },
+        {
+          "arrival": {
+            "airport": "LGA",
+            "city": "NYC",
+            "country": "US",
+            "state": "NY",
+            "terminal": "B",
+            "time": "20:04:00-05:00"
+          },
+          "carrier": {
+            "alliances": "OW ",
+            "codeShared": "ENVOY AIR AS AMERICAN EAGLE",
+            "equipment": {
+              "code": "ERD",
+              "typeForFirstLeg": "N",
+              "typeForLastLeg": "N"
+            },
+            "marketing": "AA",
+            "marketingFlightNumber": 3836,
+            "operating": "AA",
+            "operatingFlightNumber": 3836
+          },
+          "departure": {
+            "airport": "IND",
+            "city": "IND",
+            "country": "US",
+            "state": "IN",
+            "time": "17:59:00-05:00"
+          },
+          "dotRating": "4",
+          "eTicketable": true,
+          "frequency": "SMTWTFS",
+          "id": 3,
+          "stopCount": 0,
+          "totalMilesFlown": 659
+        }
+      ],
+      "statistics": {
+        "itineraryCount": 1
+      },
+      "taxDescs": [
+        {
+          "amount": 2850,
+          "code": "US1",
+          "country": "US",
+          "currency": "JPY",
+          "description": "This is a transportation tax that is wholy domestic within the US and a 225 mile buffer zone.",
+          "id": 1,
+          "publishedAmount": 25.7,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 500,
+          "code": "XF",
+          "country": "US",
+          "currency": "JPY",
+          "description": "Passenger facility charges.",
+          "id": 2,
+          "publishedAmount": 4.5,
+          "publishedCurrency": "USD",
+          "station": "LAX"
+        },
+        {
+          "amount": 500,
+          "code": "XF",
+          "country": "US",
+          "currency": "JPY",
+          "description": "Passenger facility charges.",
+          "id": 3,
+          "publishedAmount": 4.5,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 630,
+          "code": "AY",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A fee for the passenger civil aviation security service.",
+          "id": 4,
+          "publishedAmount": 5.6,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 470,
+          "code": "ZP",
+          "country": "US",
+          "currency": "JPY",
+          "description": "FLIGHT SEGMENT TAX DOMESTIC",
+          "id": 5,
+          "publishedAmount": 4.2,
+          "publishedCurrency": "USD",
+          "station": "IND"
+        },
+        {
+          "amount": 630,
+          "code": "AY",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A fee for the passenger civil aviation security service.",
+          "id": 6,
+          "publishedAmount": 5.6,
+          "publishedCurrency": "USD",
+          "station": "LAX"
+        },
+        {
+          "amount": 470,
+          "code": "ZP",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A domestic tax for this flight segment.",
+          "id": 7,
+          "publishedAmount": 4.2,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 470,
+          "code": "ZP",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A domestic tax for this flight segment.",
+          "id": 8,
+          "publishedAmount": 4.2,
+          "publishedCurrency": "USD",
+          "station": "LAX"
+        },
+        {
+          "amount": 500,
+          "code": "XF",
+          "country": "US",
+          "currency": "JPY",
+          "description": "Charges for the passenger facility.",
+          "id": 9,
+          "publishedAmount": 4.5,
+          "publishedCurrency": "USD",
+          "station": "IND"
+        }
+      ],
+      "taxSummaryDescs": [
+        {
+          "amount": 1410,
+          "code": "ZP",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A domestic tax for this flight segment.",
+          "id": 1,
+          "publishedAmount": 4.2,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 1500,
+          "code": "XF",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A charge for the passenger facility.",
+          "id": 2,
+          "publishedAmount": 4.5,
+          "publishedCurrency": "USD"
+        },
+        {
+          "amount": 2850,
+          "code": "US1",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A domestic transportation tax wholly within the US and a 225 mile buffer zone.",
+          "id": 3,
+          "publishedAmount": 0.075,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        },
+        {
+          "amount": 1260,
+          "code": "AY",
+          "country": "US",
+          "currency": "JPY",
+          "description": "A fee for the passenger civil aviation security service.",
+          "id": 4,
+          "publishedAmount": 5.6,
+          "publishedCurrency": "USD",
+          "station": "JFK"
+        }
+      ],
+      "version": "5.2.0"
+    }
+  }
+}
