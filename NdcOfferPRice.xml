@@ -1,0 +1,1297 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <OfferPriceRS Version="2017.2" xmlns="http://www.iata.org/IATA/EDIST/2017.2">
+            <Document>
+                <Name>BA</Name>
+                <ReferenceVersion>2017.2</ReferenceVersion>
+            </Document>
+            <Success/>
+            <Warnings>
+                <Warning>No guarantee on seat price. There may be a change in seat price during post sale</Warning>
+            </Warnings>
+            <ShoppingResponseID>
+                <ResponseID>tx-08-201-7c40bc16-4bf0-4ae3-9acf-7ffa8a05aded</ResponseID>
+            </ShoppingResponseID>
+            <PricedOffer OfferID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559" Owner="BA">
+                <OfferExpirationDateTime>2018-09-28T13:34:29.000Z</OfferExpirationDateTime>
+                <PaymentTimeLimitDateTime>2018-10-01T22:59:00.000Z</PaymentTimeLimitDateTime>
+                <PriceGuaranteeTimeLimitDateTime>2018-09-28T13:19:29.000Z</PriceGuaranteeTimeLimitDateTime>
+                <TotalPrice>
+                    <SimpleCurrencyPrice Code="USD">2115.67</SimpleCurrencyPrice>
+                </TotalPrice>
+                <BagDisclosureRefs>HANDBAGOD1 CKBAGOD1 HANDBAGOD2 CKBAGOD2</BagDisclosureRefs>
+                <OfferItem OfferItemID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-3">
+                    <TotalPriceDetail>
+                        <TotalAmount>
+                            <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                        </TotalAmount>
+                    </TotalPriceDetail>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-3-SVC-1">
+                        <PassengerRefs>SH3</PassengerRefs>
+                        <FlightRefs>Flight1</FlightRefs>
+                    </Service>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-3-SVC-2">
+                        <PassengerRefs>SH3</PassengerRefs>
+                        <FlightRefs>Flight2</FlightRefs>
+                    </Service>
+                    <FareDetail>
+                        <Price>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                            </TotalAmount>
+                            <BaseAmount Code="USD">562.00</BaseAmount>
+                            <Taxes>
+                                <Total Code="USD">102.01</Total>
+                                <Breakdown>
+                                    <Tax>
+                                        <Amount Code="USD">34.37</Amount>
+                                        <TaxCode>GB</TaxCode>
+                                        <Description>Air Passenger Duty - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">25.51</Amount>
+                                        <TaxCode>UB</TaxCode>
+                                        <Description>Passenger Service Charge - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">30.14</Amount>
+                                        <TaxCode>JD</TaxCode>
+                                        <Description>Departure Charge - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">2.30</Amount>
+                                        <TaxCode>OG</TaxCode>
+                                        <Description>Aviation Safety and Security Fee - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">9.69</Amount>
+                                        <TaxCode>QV</TaxCode>
+                                        <Description>Security Tax - Spain</Description>
+                                    </Tax>
+                                </Breakdown>
+                            </Taxes>
+                        </Price>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_1</PriceClassRef>
+                            <SegmentRefs>BA0458 BA7130</SegmentRefs>
+                        </FareComponent>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_2</PriceClassRef>
+                            <SegmentRefs>BA7129 BA0459</SegmentRefs>
+                        </FareComponent>
+                    </FareDetail>
+                </OfferItem>
+                <OfferItem OfferItemID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-4">
+                    <TotalPriceDetail>
+                        <TotalAmount>
+                            <SimpleCurrencyPrice Code="USD">123.64</SimpleCurrencyPrice>
+                        </TotalAmount>
+                    </TotalPriceDetail>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-4-SVC-1">
+                        <PassengerRefs>SH4</PassengerRefs>
+                        <FlightRefs>Flight1</FlightRefs>
+                    </Service>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-4-SVC-2">
+                        <PassengerRefs>SH4</PassengerRefs>
+                        <FlightRefs>Flight2</FlightRefs>
+                    </Service>
+                    <FareDetail>
+                        <Price>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">123.64</SimpleCurrencyPrice>
+                            </TotalAmount>
+                            <BaseAmount Code="USD">56.00</BaseAmount>
+                            <Taxes>
+                                <Total Code="USD">67.64</Total>
+                                <Breakdown>
+                                    <Tax>
+                                        <Amount Code="USD">25.51</Amount>
+                                        <TaxCode>UB</TaxCode>
+                                        <Description>Passenger Service Charge - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">30.14</Amount>
+                                        <TaxCode>JD</TaxCode>
+                                        <Description>Departure Charge - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">2.30</Amount>
+                                        <TaxCode>OG</TaxCode>
+                                        <Description>Aviation Safety and Security Fee - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">9.69</Amount>
+                                        <TaxCode>QV</TaxCode>
+                                        <Description>Security Tax - Spain</Description>
+                                    </Tax>
+                                </Breakdown>
+                            </Taxes>
+                        </Price>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_1</PriceClassRef>
+                            <SegmentRefs>BA0458 BA7130</SegmentRefs>
+                        </FareComponent>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_2</PriceClassRef>
+                            <SegmentRefs>BA7129 BA0459</SegmentRefs>
+                        </FareComponent>
+                    </FareDetail>
+                </OfferItem>
+                <OfferItem OfferItemID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-2">
+                    <TotalPriceDetail>
+                        <TotalAmount>
+                            <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                        </TotalAmount>
+                    </TotalPriceDetail>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-2-SVC-1">
+                        <PassengerRefs>SH2</PassengerRefs>
+                        <FlightRefs>Flight1</FlightRefs>
+                    </Service>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-2-SVC-2">
+                        <PassengerRefs>SH2</PassengerRefs>
+                        <FlightRefs>Flight2</FlightRefs>
+                    </Service>
+                    <FareDetail>
+                        <Price>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                            </TotalAmount>
+                            <BaseAmount Code="USD">562.00</BaseAmount>
+                            <Taxes>
+                                <Total Code="USD">102.01</Total>
+                                <Breakdown>
+                                    <Tax>
+                                        <Amount Code="USD">34.37</Amount>
+                                        <TaxCode>GB</TaxCode>
+                                        <Description>Air Passenger Duty - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">25.51</Amount>
+                                        <TaxCode>UB</TaxCode>
+                                        <Description>Passenger Service Charge - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">30.14</Amount>
+                                        <TaxCode>JD</TaxCode>
+                                        <Description>Departure Charge - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">2.30</Amount>
+                                        <TaxCode>OG</TaxCode>
+                                        <Description>Aviation Safety and Security Fee - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">9.69</Amount>
+                                        <TaxCode>QV</TaxCode>
+                                        <Description>Security Tax - Spain</Description>
+                                    </Tax>
+                                </Breakdown>
+                            </Taxes>
+                        </Price>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_1</PriceClassRef>
+                            <SegmentRefs>BA0458 BA7130</SegmentRefs>
+                        </FareComponent>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_2</PriceClassRef>
+                            <SegmentRefs>BA7129 BA0459</SegmentRefs>
+                        </FareComponent>
+                    </FareDetail>
+                </OfferItem>
+                <OfferItem OfferItemID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-1">
+                    <TotalPriceDetail>
+                        <TotalAmount>
+                            <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                        </TotalAmount>
+                    </TotalPriceDetail>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-1-SVC-1">
+                        <PassengerRefs>SH1</PassengerRefs>
+                        <FlightRefs>Flight1</FlightRefs>
+                    </Service>
+                    <Service ServiceID="OF-fa32edd3-37cb-4aec-bf27-4ae0e5d85559-OI-1-SVC-2">
+                        <PassengerRefs>SH1</PassengerRefs>
+                        <FlightRefs>Flight2</FlightRefs>
+                    </Service>
+                    <FareDetail>
+                        <Price>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">664.01</SimpleCurrencyPrice>
+                            </TotalAmount>
+                            <BaseAmount Code="USD">562.00</BaseAmount>
+                            <Taxes>
+                                <Total Code="USD">102.01</Total>
+                                <Breakdown>
+                                    <Tax>
+                                        <Amount Code="USD">34.37</Amount>
+                                        <TaxCode>GB</TaxCode>
+                                        <Description>Air Passenger Duty - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">25.51</Amount>
+                                        <TaxCode>UB</TaxCode>
+                                        <Description>Passenger Service Charge - United Kingdom</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">30.14</Amount>
+                                        <TaxCode>JD</TaxCode>
+                                        <Description>Departure Charge - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">2.30</Amount>
+                                        <TaxCode>OG</TaxCode>
+                                        <Description>Aviation Safety and Security Fee - Spain</Description>
+                                    </Tax>
+                                    <Tax>
+                                        <Amount Code="USD">9.69</Amount>
+                                        <TaxCode>QV</TaxCode>
+                                        <Description>Security Tax - Spain</Description>
+                                    </Tax>
+                                </Breakdown>
+                            </Taxes>
+                        </Price>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_1</PriceClassRef>
+                            <SegmentRefs>BA0458 BA7130</SegmentRefs>
+                        </FareComponent>
+                        <FareComponent>
+                            <FareRules>
+                                <Penalty refs="Rule1 Rule2 Rule3"/>
+                            </FareRules>
+                            <PriceClassRef>PCR_2</PriceClassRef>
+                            <SegmentRefs>BA7129 BA0459</SegmentRefs>
+                        </FareComponent>
+                    </FareDetail>
+                </OfferItem>
+                <BaggageAllowance>
+                    <FlightRefs>Flight1 Flight2</FlightRefs>
+                    <PassengerRefs>SH1 SH2 SH3</PassengerRefs>
+                    <BaggageAllowanceRef>HANDBAGALLOWANCE</BaggageAllowanceRef>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <FlightRefs>Flight1 Flight2</FlightRefs>
+                    <PassengerRefs>SH4</PassengerRefs>
+                    <BaggageAllowanceRef>HANDBAGALLOWANCEINF</BaggageAllowanceRef>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <FlightRefs>Flight1</FlightRefs>
+                    <PassengerRefs>SH1 SH2 SH3</PassengerRefs>
+                    <BaggageAllowanceRef>CKBAGFlight1</BaggageAllowanceRef>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <FlightRefs>Flight1</FlightRefs>
+                    <PassengerRefs>SH4</PassengerRefs>
+                    <BaggageAllowanceRef>CKBAGFlight1INF</BaggageAllowanceRef>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <FlightRefs>Flight2</FlightRefs>
+                    <PassengerRefs>SH1 SH2 SH3</PassengerRefs>
+                    <BaggageAllowanceRef>CKBAGFlight2</BaggageAllowanceRef>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <FlightRefs>Flight2</FlightRefs>
+                    <PassengerRefs>SH4</PassengerRefs>
+                    <BaggageAllowanceRef>CKBAGFlight2INF</BaggageAllowanceRef>
+                </BaggageAllowance>
+            </PricedOffer>
+            <OtherOffers>
+                <ALaCarteOffer OfferID="O1" Owner="BA">
+                    <ALaCarteOfferItem OfferItemID="AOI1">
+                        <Eligibility>
+                            <SegmentRefs>BA0458</SegmentRefs>
+                        </Eligibility>
+                        <UnitPriceDetail>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">0.00</SimpleCurrencyPrice>
+                            </TotalAmount>
+                        </UnitPriceDetail>
+                        <Service ServiceID="AOI1-SVC-1">
+                            <ServiceDefinitionRef>SRVC-SEAT-PRICE-0-BA0458</ServiceDefinitionRef>
+                        </Service>
+                    </ALaCarteOfferItem>
+                    <ALaCarteOfferItem OfferItemID="AOI4">
+                        <Eligibility>
+                            <SegmentRefs>BA0459</SegmentRefs>
+                        </Eligibility>
+                        <UnitPriceDetail>
+                            <TotalAmount>
+                                <SimpleCurrencyPrice Code="USD">0.00</SimpleCurrencyPrice>
+                            </TotalAmount>
+                        </UnitPriceDetail>
+                        <Service ServiceID="AOI4-SVC-4">
+                            <ServiceDefinitionRef>SRVC-SEAT-PRICE-3-BA0459</ServiceDefinitionRef>
+                        </Service>
+                    </ALaCarteOfferItem>
+                </ALaCarteOffer>
+            </OtherOffers>
+            <DataLists>
+                <PassengerList>
+                    <Passenger PassengerID="SH1">
+                        <PTC>ADT</PTC>
+                        <Individual>
+                            <Birthdate>1985-12-24</Birthdate>
+                            <NameTitle>MR</NameTitle>
+                            <GivenName>Bernard</GivenName>
+                            <Surname>Blunder</Surname>
+                        </Individual>
+                        <LoyaltyProgramAccount>
+                            <Airline>
+                                <AirlineDesignator>BA</AirlineDesignator>
+                            </Airline>
+                            <ProgramName>On Business</ProgramName>
+                            <AccountNumber>OB12345678</AccountNumber>
+                        </LoyaltyProgramAccount>
+                    </Passenger>
+                    <Passenger PassengerID="SH2">
+                        <PTC>ADT</PTC>
+                        <Individual>
+                            <Birthdate>2004-11-12</Birthdate>
+                            <NameTitle>MR</NameTitle>
+                            <GivenName>R</GivenName>
+                            <Surname>Bloomberg</Surname>
+                        </Individual>
+                    </Passenger>
+                    <Passenger PassengerID="SH3">
+                        <PTC>CHD</PTC>
+                        <Individual>
+                            <Birthdate>2010-01-01</Birthdate>
+                            <NameTitle>MR</NameTitle>
+                            <GivenName>R</GivenName>
+                            <Surname>Bloomberg</Surname>
+                        </Individual>
+                    </Passenger>
+                    <Passenger PassengerID="SH4">
+                        <PTC>INF</PTC>
+                        <Birthdate>2017-05-18</Birthdate>
+                    </Passenger>
+                </PassengerList>
+                <BagDisclosureList>
+                    <BagDisclosure ListKey="HANDBAGOD1">
+                        <BagRule>LHR SCQ</BagRule>
+                        <Descriptions>
+                            <Description>
+                                <Text>Up to 56cm x 45cm x 25cm/22in x 18in x 10in.</Text>
+                            </Description>
+                            <Description>
+                                <Text>1 handbag/laptop bag per person</Text>
+                            </Description>
+                            <Description>
+                                <Text>Up to 40cm x 30cm x 15cm/16in x 12in x 6in.</Text>
+                            </Description>
+                            <Description>
+                                <Text>To be placed under the seat in front of you*.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Plus 1 additional cabin bag per person</Text>
+                            </Description>
+                            <Description>
+                                <Text>You must be able to lift your bag unaided into the overhead locker*.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Allowances for children and infants</Text>
+                            </Description>
+                            <Description>
+                                <Text>In addition to their baggage allowance infants and children, up to age 11, can also take one fully collapsible pushchair (stroller) and one car seat.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Different hand baggage allowances and restrictions may apply on other airlines.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Please see the operating airline's website for information.</Text>
+                            </Description>
+                            <Description>
+                                <Text>British Airways</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/jba/ib/en_GB/Baggage/HandBaggage.html</MediaLink>
+                                </Media>
+                            </Description>
+                        </Descriptions>
+                    </BagDisclosure>
+                    <BagDisclosure ListKey="CKBAGOD1">
+                        <BagRule>LHR SCQ</BagRule>
+                        <Descriptions>
+                            <Description>
+                                <Text>Adults, young adults and children:2 bags at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>Infants (with a seat):2 bags at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>Infants (without a seat):1 bag at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>For flights on British Airways, there are restrictions on what you can pack, how heavy your bags can be and on the dimensions of your bags. You may be charged for any overweight or extra bags.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Different checked baggage charges and restrictions may apply on other airlines. Please see the operating airline's website for information.</Text>
+                            </Description>
+                            <Description>
+                                <Text>British Airways</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/jba/ib/en_GB/Baggage/HandBaggage.html</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>Baggage essentials</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/main/baggag/EN_GB</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>restrictions on what you can pack</Text>
+                                <Media>
+                                    <MediaLink>http://www.britishairways.com/cms/global/pdfs/Forbidden_Items_List.pdf</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>Baggage allowances and charges</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/main/bagchk/EN_GB</MediaLink>
+                                </Media>
+                            </Description>
+                        </Descriptions>
+                    </BagDisclosure>
+                    <BagDisclosure ListKey="HANDBAGOD2">
+                        <BagRule>SCQ LHR</BagRule>
+                        <Descriptions>
+                            <Description>
+                                <Text>Up to 56cm x 45cm x 25cm/22in x 18in x 10in.</Text>
+                            </Description>
+                            <Description>
+                                <Text>1 handbag/laptop bag per person</Text>
+                            </Description>
+                            <Description>
+                                <Text>Up to 40cm x 30cm x 15cm/16in x 12in x 6in.</Text>
+                            </Description>
+                            <Description>
+                                <Text>To be placed under the seat in front of you*.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Plus 1 additional cabin bag per person</Text>
+                            </Description>
+                            <Description>
+                                <Text>You must be able to lift your bag unaided into the overhead locker*.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Allowances for children and infants</Text>
+                            </Description>
+                            <Description>
+                                <Text>In addition to their baggage allowance infants and children, up to age 11, can also take one fully collapsible pushchair (stroller) and one car seat.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Different hand baggage allowances and restrictions may apply on other airlines.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Please see the operating airline's website for information.</Text>
+                            </Description>
+                            <Description>
+                                <Text>British Airways</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/jba/ib/en_GB/Baggage/HandBaggage.html</MediaLink>
+                                </Media>
+                            </Description>
+                        </Descriptions>
+                    </BagDisclosure>
+                    <BagDisclosure ListKey="CKBAGOD2">
+                        <BagRule>SCQ LHR</BagRule>
+                        <Descriptions>
+                            <Description>
+                                <Text>Adults, young adults and children:2 bags at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>Infants (with a seat):2 bags at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>Infants (without a seat):1 bag at 32kg (70lbs)</Text>
+                            </Description>
+                            <Description>
+                                <Text>For flights on British Airways, there are restrictions on what you can pack, how heavy your bags can be and on the dimensions of your bags. You may be charged for any overweight or extra bags.</Text>
+                            </Description>
+                            <Description>
+                                <Text>Different checked baggage charges and restrictions may apply on other airlines. Please see the operating airline's website for information.</Text>
+                            </Description>
+                            <Description>
+                                <Text>British Airways</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/jba/ib/en_GB/Baggage/HandBaggage.html</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>Baggage essentials</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/main/baggag/EN_GB</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>restrictions on what you can pack</Text>
+                                <Media>
+                                    <MediaLink>http://www.britishairways.com/cms/global/pdfs/Forbidden_Items_List.pdf</MediaLink>
+                                </Media>
+                            </Description>
+                            <Description>
+                                <Text>Baggage allowances and charges</Text>
+                                <Media>
+                                    <MediaLink>www.britishairways.com/main/bagchk/EN_GB</MediaLink>
+                                </Media>
+                            </Description>
+                        </Descriptions>
+                    </BagDisclosure>
+                </BagDisclosureList>
+                <BaggageAllowanceList>
+                    <BaggageAllowance BaggageAllowanceID="HANDBAGALLOWANCE">
+                        <BaggageCategory>CarryOn</BaggageCategory>
+                        <PieceAllowance PieceAllowanceCombination="AND" refs="SH1 SH2 SH3">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>1</TotalQuantity>
+                            <BagType>briefcase, laptop or handbag</BagType>
+                            <PieceMeasurements Quantity="1">
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Centimeter</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>40.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>30.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>15.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Inch</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>16.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>12.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>6.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                        <PieceAllowance PieceAllowanceCombination="AND" refs="SH1 SH2 SH3">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>1</TotalQuantity>
+                            <BagType>Bag</BagType>
+                            <PieceMeasurements Quantity="1">
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Centimeter</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>56.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>45.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>25.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Inch</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>22.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>18.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>10.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                    <BaggageAllowance BaggageAllowanceID="HANDBAGALLOWANCEINF">
+                        <BaggageCategory>CarryOn</BaggageCategory>
+                        <PieceAllowance refs="SH4">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>1</TotalQuantity>
+                            <BagType>1 additional cabin bag</BagType>
+                            <PieceMeasurements Quantity="1">
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Centimeter</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>56.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>45.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>25.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                                <PieceDimensionAllowance>
+                                    <ApplicableParty>Party</ApplicableParty>
+                                    <DimensionUOM>Inch</DimensionUOM>
+                                    <Dimensions>
+                                        <Category>Length</Category>
+                                        <MaxValue>22.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Width</Category>
+                                        <MaxValue>18.00</MaxValue>
+                                    </Dimensions>
+                                    <Dimensions>
+                                        <Category>Height</Category>
+                                        <MaxValue>10.00</MaxValue>
+                                    </Dimensions>
+                                </PieceDimensionAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                    <BaggageAllowance BaggageAllowanceID="CKBAGFlight1">
+                        <BaggageCategory>Checked</BaggageCategory>
+                        <PieceAllowance refs="SH1 SH2 SH3">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>2</TotalQuantity>
+                            <BagType>Bag</BagType>
+                            <PieceMeasurements Quantity="2">
+                                <PieceWeightAllowance>
+                                    <MaximumWeight>
+                                        <Value>32</Value>
+                                        <UOM>K</UOM>
+                                    </MaximumWeight>
+                                    <MaximumWeight>
+                                        <Value>70</Value>
+                                        <UOM>L</UOM>
+                                    </MaximumWeight>
+                                </PieceWeightAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                    <BaggageAllowance BaggageAllowanceID="CKBAGFlight1INF">
+                        <BaggageCategory>Checked</BaggageCategory>
+                        <PieceAllowance refs="SH4">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>1</TotalQuantity>
+                            <BagType>Bag</BagType>
+                            <PieceMeasurements Quantity="1">
+                                <PieceWeightAllowance>
+                                    <MaximumWeight>
+                                        <Value>23</Value>
+                                        <UOM>K</UOM>
+                                    </MaximumWeight>
+                                    <MaximumWeight>
+                                        <Value>51</Value>
+                                        <UOM>L</UOM>
+                                    </MaximumWeight>
+                                </PieceWeightAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                    <BaggageAllowance BaggageAllowanceID="CKBAGFlight2">
+                        <BaggageCategory>Checked</BaggageCategory>
+                        <PieceAllowance refs="SH1 SH2 SH3">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>2</TotalQuantity>
+                            <BagType>Bag</BagType>
+                            <PieceMeasurements Quantity="2">
+                                <PieceWeightAllowance>
+                                    <MaximumWeight>
+                                        <Value>32</Value>
+                                        <UOM>K</UOM>
+                                    </MaximumWeight>
+                                    <MaximumWeight>
+                                        <Value>70</Value>
+                                        <UOM>L</UOM>
+                                    </MaximumWeight>
+                                </PieceWeightAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                    <BaggageAllowance BaggageAllowanceID="CKBAGFlight2INF">
+                        <BaggageCategory>Checked</BaggageCategory>
+                        <PieceAllowance refs="SH4">
+                            <ApplicableParty>Party</ApplicableParty>
+                            <TotalQuantity>1</TotalQuantity>
+                            <BagType>Bag</BagType>
+                            <PieceMeasurements Quantity="1">
+                                <PieceWeightAllowance>
+                                    <MaximumWeight>
+                                        <Value>23</Value>
+                                        <UOM>K</UOM>
+                                    </MaximumWeight>
+                                    <MaximumWeight>
+                                        <Value>51</Value>
+                                        <UOM>L</UOM>
+                                    </MaximumWeight>
+                                </PieceWeightAllowance>
+                            </PieceMeasurements>
+                        </PieceAllowance>
+                    </BaggageAllowance>
+                </BaggageAllowanceList>
+                <DisclosureList>
+                    <Disclosures ListKey="DISCLOSURE1">
+                        <Description>
+                            <Text>1 handbag/laptop bag (40cm x 30cm x 15cm/16in x 12in x 6in) plus one additional cabin bag (56cm x 45cm x 25cm/22in x 18in x 10in)</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/BAGCABIN/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Access to lounges to help you work or rest (where available)</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/terraces/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Priority check-in, boarding and disembarking</Text>
+                        </Description>
+                        <Description>
+                            <Text>Comfortable leather seats with guaranteed window or aisle seat</Text>
+                        </Description>
+                        <Description>
+                            <Text>Healthy, fresh complimentary meals and refreshments</Text>
+                        </Description>
+                        <Description>
+                            <Text>This fare will earn Executive Club Tier Points</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/ABOUT-THE-CLUB/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Convenient centrally located airports</Text>
+                        </Description>
+                    </Disclosures>
+                    <Disclosures ListKey="DISCLOSURE2">
+                        <Description>
+                            <Text>Service may differ from British Airways</Text>
+                        </Description>
+                        <Description>
+                            <Text>Airport lounge facilities available</Text>
+                        </Description>
+                        <Description>
+                            <Text>Baggage allowances may differ for flights operated by American Airlines, Finnair, Iberia and Japan Airlines</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/bagchk/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                    </Disclosures>
+                    <Disclosures ListKey="DISCLOSURE3">
+                        <Description>
+                            <Text>Service may differ from British Airways</Text>
+                        </Description>
+                        <Description>
+                            <Text>Airport lounge facilities available</Text>
+                        </Description>
+                        <Description>
+                            <Text>Baggage allowances may differ for flights operated by American Airlines, Finnair, Iberia and Japan Airlines</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/bagchk/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                    </Disclosures>
+                    <Disclosures ListKey="DISCLOSURE4">
+                        <Description>
+                            <Text>1 handbag/laptop bag (40cm x 30cm x 15cm/16in x 12in x 6in) plus one additional cabin bag (56cm x 45cm x 25cm/22in x 18in x 10in)</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/BAGCABIN/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Access to lounges to help you work or rest (where available)</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/terraces/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Priority check-in, boarding and disembarking</Text>
+                        </Description>
+                        <Description>
+                            <Text>Comfortable leather seats with guaranteed window or aisle seat</Text>
+                        </Description>
+                        <Description>
+                            <Text>Healthy, fresh complimentary meals and refreshments</Text>
+                        </Description>
+                        <Description>
+                            <Text>This fare will earn Executive Club Tier Points</Text>
+                            <Media>
+                                <MediaLink>www.britishairways.com/main/ABOUT-THE-CLUB/EN_GB</MediaLink>
+                            </Media>
+                        </Description>
+                        <Description>
+                            <Text>Convenient centrally located airports</Text>
+                        </Description>
+                    </Disclosures>
+                </DisclosureList>
+                <FareList>
+                    <FareGroup ListKey="FBCODE1CHD">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0SCH/N</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                    <FareGroup ListKey="FBCODE2INF">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0SIN/N</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                    <FareGroup ListKey="FBCODE3ADT">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0S/N</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                    <FareGroup ListKey="FBCODE4CHD">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0SCH/Y</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                    <FareGroup ListKey="FBCODE5INF">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0SIN/Y</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                    <FareGroup ListKey="FBCODE6ADT">
+                        <Fare>
+                            <FareCode>70J</FareCode>
+                        </Fare>
+                        <FareBasisCode>
+                            <Code>RLM0S/Y</Code>
+                        </FareBasisCode>
+                    </FareGroup>
+                </FareList>
+                <FlightSegmentList>
+                    <FlightSegment SegmentKey="BA0458" SecureFlight="false">
+                        <Departure>
+                            <AirportCode>LHR</AirportCode>
+                            <Date>2019-05-10</Date>
+                            <Time>07:20</Time>
+                            <AirportName>Heathrow (London) Airport</AirportName>
+                            <Terminal>
+                                <Name>5</Name>
+                            </Terminal>
+                        </Departure>
+                        <Arrival>
+                            <AirportCode>MAD</AirportCode>
+                            <Date>2019-05-10</Date>
+                            <Time>10:50</Time>
+                            <AirportName>Madrid Airport</AirportName>
+                            <Terminal>
+                                <Name>4S</Name>
+                            </Terminal>
+                        </Arrival>
+                        <MarketingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                            <FlightNumber>0458</FlightNumber>
+                        </MarketingCarrier>
+                        <OperatingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                        </OperatingCarrier>
+                        <Equipment>
+                            <AircraftCode>320</AircraftCode>
+                            <Name>Airbus A320 jet</Name>
+                        </Equipment>
+                        <FlightDetail>
+                            <FlightDuration>
+                                <Value>PT2H30M</Value>
+                            </FlightDuration>
+                            <Stops>
+                                <StopQuantity>0</StopQuantity>
+                            </Stops>
+                        </FlightDetail>
+                    </FlightSegment>
+                    <FlightSegment SegmentKey="BA7130" SecureFlight="false">
+                        <Departure>
+                            <AirportCode>MAD</AirportCode>
+                            <Date>2019-05-10</Date>
+                            <Time>11:45</Time>
+                            <AirportName>Madrid Airport</AirportName>
+                            <Terminal>
+                                <Name>4</Name>
+                            </Terminal>
+                        </Departure>
+                        <Arrival>
+                            <AirportCode>SCQ</AirportCode>
+                            <Date>2019-05-10</Date>
+                            <Time>13:00</Time>
+                            <AirportName>Santiago De Compostela Airport</AirportName>
+                        </Arrival>
+                        <MarketingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                            <FlightNumber>7130</FlightNumber>
+                        </MarketingCarrier>
+                        <OperatingCarrier>
+                            <Name>IBERIA EXPRESS FOR IBERIA</Name>
+                        </OperatingCarrier>
+                        <Equipment>
+                            <AircraftCode>320</AircraftCode>
+                            <Name>Airbus A320 jet</Name>
+                        </Equipment>
+                        <FlightDetail>
+                            <FlightDuration>
+                                <Value>PT1H15M</Value>
+                            </FlightDuration>
+                            <Stops>
+                                <StopQuantity>0</StopQuantity>
+                            </Stops>
+                        </FlightDetail>
+                    </FlightSegment>
+                    <FlightSegment SegmentKey="BA7129" SecureFlight="false">
+                        <Departure>
+                            <AirportCode>SCQ</AirportCode>
+                            <Date>2019-05-17</Date>
+                            <Time>09:20</Time>
+                            <AirportName>Santiago De Compostela Airport</AirportName>
+                        </Departure>
+                        <Arrival>
+                            <AirportCode>MAD</AirportCode>
+                            <Date>2019-05-17</Date>
+                            <Time>10:40</Time>
+                            <AirportName>Madrid Airport</AirportName>
+                            <Terminal>
+                                <Name>4</Name>
+                            </Terminal>
+                        </Arrival>
+                        <MarketingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                            <FlightNumber>7129</FlightNumber>
+                        </MarketingCarrier>
+                        <OperatingCarrier>
+                            <Name>IBERIA EXPRESS FOR IBERIA</Name>
+                        </OperatingCarrier>
+                        <Equipment>
+                            <AircraftCode>320</AircraftCode>
+                            <Name>Airbus A320 jet</Name>
+                        </Equipment>
+                        <FlightDetail>
+                            <FlightDuration>
+                                <Value>PT1H20M</Value>
+                            </FlightDuration>
+                            <Stops>
+                                <StopQuantity>0</StopQuantity>
+                            </Stops>
+                        </FlightDetail>
+                    </FlightSegment>
+                    <FlightSegment SegmentKey="BA0459" SecureFlight="false">
+                        <Departure>
+                            <AirportCode>MAD</AirportCode>
+                            <Date>2019-05-17</Date>
+                            <Time>12:10</Time>
+                            <AirportName>Madrid Airport</AirportName>
+                            <Terminal>
+                                <Name>4S</Name>
+                            </Terminal>
+                        </Departure>
+                        <Arrival>
+                            <AirportCode>LHR</AirportCode>
+                            <Date>2019-05-17</Date>
+                            <Time>13:35</Time>
+                            <AirportName>Heathrow (London) Airport</AirportName>
+                            <Terminal>
+                                <Name>5</Name>
+                            </Terminal>
+                        </Arrival>
+                        <MarketingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                            <FlightNumber>0459</FlightNumber>
+                        </MarketingCarrier>
+                        <OperatingCarrier>
+                            <AirlineID>BA</AirlineID>
+                            <Name>British Airways</Name>
+                        </OperatingCarrier>
+                        <Equipment>
+                            <AircraftCode>320</AircraftCode>
+                            <Name>Airbus A320 jet</Name>
+                        </Equipment>
+                        <FlightDetail>
+                            <FlightDuration>
+                                <Value>PT2H25M</Value>
+                            </FlightDuration>
+                            <Stops>
+                                <StopQuantity>0</StopQuantity>
+                            </Stops>
+                        </FlightDetail>
+                    </FlightSegment>
+                </FlightSegmentList>
+                <FlightList>
+                    <Flight FlightKey="Flight1">
+                        <Journey>
+                            <Time>PT4H40M</Time>
+                        </Journey>
+                        <SegmentReferences>BA0458 BA7130</SegmentReferences>
+                    </Flight>
+                    <Flight FlightKey="Flight2">
+                        <Journey>
+                            <Time>PT5H15M</Time>
+                        </Journey>
+                        <SegmentReferences>BA7129 BA0459</SegmentReferences>
+                    </Flight>
+                </FlightList>
+                <OriginDestinationList>
+                    <OriginDestination OriginDestinationKey="OD1">
+                        <DepartureCode>LHR</DepartureCode>
+                        <ArrivalCode>SCQ</ArrivalCode>
+                        <FlightReferences>Flight1</FlightReferences>
+                    </OriginDestination>
+                    <OriginDestination OriginDestinationKey="OD2">
+                        <DepartureCode>SCQ</DepartureCode>
+                        <ArrivalCode>LHR</ArrivalCode>
+                        <FlightReferences>Flight2</FlightReferences>
+                    </OriginDestination>
+                </OriginDestinationList>
+                <MediaList>
+                    <Media ListKey="Legal-Information">
+                        <MediaLink>https://www.ba.com/EN-GB/information/legal</MediaLink>
+                    </Media>
+                </MediaList>
+                <PenaltyList>
+                    <Penalty ObjectKey="Rule1" refs="BA0458 BA7130 BA7129 BA0459 SH1 SH2 SH3 SH4">
+                        <Details>
+                            <Detail>
+                                <Type>Change</Type>
+                                <Amounts>
+                                    <Amount>
+                                        <CurrencyAmountValue Code="USD">132.00</CurrencyAmountValue>
+                                        <ApplicableFeeRemarks>
+                                            <Remark>Time/date changes permitted at any time before each flight departure for a change fee of USD 132.00 or an upgrade fee of USD 132.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket</Remark>
+                                        </ApplicableFeeRemarks>
+                                    </Amount>
+                                </Amounts>
+                            </Detail>
+                        </Details>
+                    </Penalty>
+                    <Penalty ObjectKey="Rule2" refs="BA0458 BA7130 BA7129 BA0459 SH1 SH2 SH3 SH4">
+                        <Details>
+                            <Detail>
+                                <Type>Upgrade</Type>
+                                <Amounts>
+                                    <Amount>
+                                        <CurrencyAmountValue Code="USD">132.00</CurrencyAmountValue>
+                                        <ApplicableFeeRemarks>
+                                            <Remark>Time/date changes permitted at any time before each flight departure for a change fee of USD 132.00 or an upgrade fee of USD 132.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket</Remark>
+                                        </ApplicableFeeRemarks>
+                                    </Amount>
+                                </Amounts>
+                            </Detail>
+                        </Details>
+                    </Penalty>
+                    <Penalty ObjectKey="Rule3" refs="BA0458 BA7130 BA7129 BA0459 SH1 SH2 SH3 SH4">
+                        <ApplicableFeeRemarks>
+                            <Remark>4427_REFUND</Remark>
+                        </ApplicableFeeRemarks>
+                        <Details>
+                            <Detail>
+                                <Type>Cancellation</Type>
+                            </Detail>
+                        </Details>
+                    </Penalty>
+                </PenaltyList>
+                <PriceClassList>
+                    <PriceClass PriceClassID="PCR_1">
+                        <Name>Club Europe</Name>
+                        <ClassOfService refs="BA0458 FBCODE1CHD FBCODE2INF FBCODE3ADT DISCLOSURE1">
+                            <Code>R</Code>
+                            <MarketingName>Club Europe</MarketingName>
+                        </ClassOfService>
+                        <ClassOfService refs="BA7130 FBCODE4CHD FBCODE5INF FBCODE6ADT DISCLOSURE2">
+                            <Code>R</Code>
+                            <MarketingName>Business</MarketingName>
+                        </ClassOfService>
+                    </PriceClass>
+                    <PriceClass PriceClassID="PCR_2">
+                        <Name>Business</Name>
+                        <ClassOfService refs="BA7129 FBCODE1CHD FBCODE2INF FBCODE3ADT DISCLOSURE1">
+                            <Code>R</Code>
+                            <MarketingName>Business</MarketingName>
+                        </ClassOfService>
+                        <ClassOfService refs="BA0459 FBCODE4CHD FBCODE5INF FBCODE6ADT DISCLOSURE2">
+                            <Code>R</Code>
+                            <MarketingName>Club Europe</MarketingName>
+                        </ClassOfService>
+                    </PriceClass>
+                </PriceClassList>
+                <ServiceDefinitionList>
+                    <ServiceDefinition ServiceDefinitionID="SRVC-SEAT-PRICE-0-BA0458" Owner="BA">
+                        <Name>SEAT</Name>
+                        <Descriptions>
+                            <Description>
+                                <Text>FrontSeat</Text>
+                            </Description>
+                        </Descriptions>
+                    </ServiceDefinition>
+                    <ServiceDefinition ServiceDefinitionID="SRVC-SEAT-PRICE-3-BA0459" Owner="BA">
+                        <Name>SEAT</Name>
+                        <Descriptions>
+                            <Description>
+                                <Text>FrontSeat</Text>
+                            </Description>
+                        </Descriptions>
+                    </ServiceDefinition>
+                </ServiceDefinitionList>
+            </DataLists>
+            <Metadata>
+                <Other>
+                    <OtherMetadata>
+                        <PaymentCardMetadatas>
+                            <PaymentCardMetadata MetadataKey="Payment1">
+                                <CardCode>VI</CardCode>
+                                <CardName>Visa Credit</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                    <FieldName Mandatory="true">SeriesCode</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                            <PaymentCardMetadata MetadataKey="Payment2">
+                                <CardCode>CA</CardCode>
+                                <CardName>MasterCard</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                    <FieldName Mandatory="true">SeriesCode</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                            <PaymentCardMetadata MetadataKey="Payment3">
+                                <CardCode>DS</CardCode>
+                                <CardName>Discover</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                    <FieldName Mandatory="true">SeriesCode</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                            <PaymentCardMetadata MetadataKey="Payment4">
+                                <CardCode>DC</CardCode>
+                                <CardName>Diners Club</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                    <FieldName Mandatory="true">SeriesCode</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                            <PaymentCardMetadata MetadataKey="Payment5">
+                                <CardCode>AX</CardCode>
+                                <CardName>American Express</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                    <FieldName Mandatory="true">SeriesCode</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                            <PaymentCardMetadata MetadataKey="Payment6">
+                                <CardCode>TP</CardCode>
+                                <CardName>Airplus/UATP</CardName>
+                                <CardType>Credit</CardType>
+                                <CardFields>
+                                    <FieldName Mandatory="true">CardType</FieldName>
+                                    <FieldName Mandatory="true">CardCode</FieldName>
+                                    <FieldName Mandatory="true">CardName</FieldName>
+                                    <FieldName Mandatory="true">CardNumber</FieldName>
+                                    <FieldName Mandatory="true">CardHolderName</FieldName>
+                                    <FieldName Mandatory="true">Expiration</FieldName>
+                                </CardFields>
+                            </PaymentCardMetadata>
+                        </PaymentCardMetadatas>
+                    </OtherMetadata>
+                    <OtherMetadata>
+                        <AddressMetadatas>
+                            <AddressMetadata MetadataKey="Address">
+                                <AddressType>Billing</AddressType>
+                                <AddressFields>
+                                    <FieldName Mandatory="true">AddressLine1</FieldName>
+                                    <FieldName Mandatory="true">City</FieldName>
+                                    <FieldName Mandatory="true">StateProv</FieldName>
+                                    <FieldName Mandatory="true">PostalCode</FieldName>
+                                    <FieldName Mandatory="true">CountryCode</FieldName>
+                                </AddressFields>
+                            </AddressMetadata>
+                        </AddressMetadatas>
+                    </OtherMetadata>
+                    <OtherMetadata>
+                        <CurrencyMetadatas>
+                            <CurrencyMetadata MetadataKey="Meta1">
+                                <Decimals>2</Decimals>
+                            </CurrencyMetadata>
+                        </CurrencyMetadatas>
+                    </OtherMetadata>
+                </Other>
+            </Metadata>
+        </OfferPriceRS>
+    </soap:Body>
+</soap:Envelope>
