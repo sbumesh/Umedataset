@@ -1,0 +1,81 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <OrderCancelRS Version="17.2" xmlns="http://www.iata.org/IATA/EDIST/2017.2">
+         <Document>
+            <Name>BA</Name>
+            <ReferenceVersion>2017.2</ReferenceVersion>
+         </Document>
+         <Success/>
+         <Response>
+            <OrderCancelProcessing>
+               <Remarks>
+                  <Remark>Total Amount Refunded - 184.62 GBP</Remark>
+               </Remarks>
+            </OrderCancelProcessing>
+            <OrderReference>PDRFVB</OrderReference>
+            <TicketDocInfos>
+               <TicketDocInfo>
+                  <FareInfo>
+                     <Total>
+                        <Amount Code="GBP">124.62</Amount>
+                     </Total>
+                  </FareInfo>
+                  <TicketDocument>
+                     <TicketDocNbr>125-8780903498</TicketDocNbr>
+                     <Type>T</Type>
+                     <NumberofBooklets>1</NumberofBooklets>
+                     <DateOfIssue>2019-01-24</DateOfIssue>
+                     <CouponInfo>
+                        <CouponNumber>1</CouponNumber>
+                        <FareBasisCode>
+                           <Code>NLWF00M7</Code>
+                        </FareBasisCode>
+                        <Status>RF</Status>
+                        <SoldAirlineInfo>
+                           <DepartureDateTime DateTime="2019-02-10T14:15:00.000Z"/>
+                           <Departure>
+                              <AirportCode>LHR</AirportCode>
+                              <Date>2019-02-10</Date>
+                              <Time>14:15</Time>
+                              <AirportName>Heathrow (London)</AirportName>
+                           </Departure>
+                           <Arrival>
+                              <AirportCode>MAA</AirportCode>
+                           </Arrival>
+                           <MarketingCarrier>
+                              <AirlineID>BA</AirlineID>
+                              <FlightNumber>0035</FlightNumber>
+                           </MarketingCarrier>
+                        </SoldAirlineInfo>
+                     </CouponInfo>
+                     <ReportingType>Airline</ReportingType>
+                  </TicketDocument>
+               </TicketDocInfo>
+               <TicketDocInfo>
+                  <FareInfo>
+                     <Total>
+                        <Amount Code="GBP">60.00</Amount>
+                     </Total>
+                  </FareInfo>
+                  <TicketDocument>
+                     <TicketDocNbr>125-8235298210</TicketDocNbr>
+                     <Type>J</Type>
+                     <NumberofBooklets>1</NumberofBooklets>
+                     <DateOfIssue>2019-01-28</DateOfIssue>
+                     <CouponInfo>
+                        <CouponNumber>1</CouponNumber>
+                        <Status>RF</Status>
+                        <ReasonForIssuance>
+                           <RFIC>C</RFIC>
+                           <Code>0AA</Code>
+                           <Description>PREPAID ADDITIONAL BAGGAGE</Description>
+                        </ReasonForIssuance>
+                     </CouponInfo>
+                     <ReportingType>Airline</ReportingType>
+                  </TicketDocument>
+               </TicketDocInfo>
+            </TicketDocInfos>
+         </Response>
+      </OrderCancelRS>
+   </soap:Body>
+</soap:Envelope>
