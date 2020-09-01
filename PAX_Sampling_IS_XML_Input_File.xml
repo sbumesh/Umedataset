@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="ASCII"?>
+<InvoiceTransmission xsi:schemaLocation="http://www.IATA.com/IATAAviationInvoiceStandard http://www.iata.org/services/finance/sis/Documents/schemas/IATA_IS_XML_Invoice_Standard_V3.9.xsd" xmlns="http://www.IATA.com/IATAAviationInvoiceStandard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransmissionHeader>
+    <TransmissionDateTime>2011-01-27T21:28:11</TransmissionDateTime>
+    <Version>IATA:ISXMLInvoiceVN.N</Version>
+    <IssuingOrganizationID>111</IssuingOrganizationID>
+    <BillingCategory>Passenger</BillingCategory>
+  </TransmissionHeader>
+  <Invoice>
+    <InvoiceHeader>
+      <InvoiceNumber>PSDE0321</InvoiceNumber>
+      <InvoiceDate>2011-01-03</InvoiceDate>
+      <InvoiceType>Invoice</InvoiceType>
+      <ChargeCategory>Pax Sample Form DE</ChargeCategory>
+      <SellerOrganization>
+        <OrganizationID>111</OrganizationID>
+        <OrganizationName1>Legal name of biller</OrganizationName1>
+        <TaxRegistrationID>Biller Tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Biller tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Biller Co. Reg. Id       Biller Address line #1</AddressLine1>
+          <AddressLine2>Biller Address line #2</AddressLine2>
+          <AddressLine3>Biller Address line #3</AddressLine3>
+          <CityName>biller city name</CityName>
+          <CountryCode>DE</CountryCode>
+          <CountryName>Germany</CountryName>
+          <PostalCode>Biller postal code</PostalCode>
+        </Address>
+      </SellerOrganization>
+      <BuyerOrganization>
+        <OrganizationID>222</OrganizationID>
+        <OrganizationName1>Legal name of billed airline</OrganizationName1>
+        <TaxRegistrationID>Billed airline tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Billed airline tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Billed Co. Reg. Id       Billed airline address line #1</AddressLine1>
+          <AddressLine2>Billed airline address line #2</AddressLine2>
+          <CityName>Billed airline city name</CityName>
+          <SubdivisionCode>K</SubdivisionCode>
+          <SubdivisionName>Borough K</SubdivisionName>
+          <CountryCode>GB</CountryCode>
+          <CountryName>United Kingdom</CountryName>
+          <PostalCode>KB30 951</PostalCode>
+        </Address>
+      </BuyerOrganization>
+      <PaymentTerms>
+        <CurrencyCode>USD</CurrencyCode>
+        <ClearanceCurrencyCode>USD</ClearanceCurrencyCode>
+        <ExchangeRate>1.000</ExchangeRate>
+        <SettlementMonthPeriod>101204</SettlementMonthPeriod>
+        <SettlementMethod>I</SettlementMethod>
+      </PaymentTerms>
+      <ISDetails>
+        <DigitalSignatureFlag>Y</DigitalSignatureFlag>
+      </ISDetails>
+    </InvoiceHeader>
+    <LineItem>
+      <LineItemNumber>1</LineItemNumber>
+      <ChargeCode>54</ChargeCode>
+      <ChargeAmount>819.110</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">33.26</TaxAmount>
+      </Tax>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount>-5.380</TaxAmount>
+        <TaxBreakdown>
+          <TaxLabel>VAT</TaxLabel>
+          <TaxIdentifier>IS</TaxIdentifier>
+          <TaxableAmount>-38.420</TaxableAmount>
+          <TaxPercent>14.00</TaxPercent>
+          <TaxAmount>-5.380</TaxAmount>
+          <TaxText>DE VAT ON ISC</TaxText>
+        </TaxBreakdown>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-73.72</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-8.26</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-7.51</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-3.2</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>754.300</TotalNetAmount>
+      <DetailCount>2</DetailCount>
+    </LineItem>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>12</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>34</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">392.210</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">9.820</TaxAmount>
+        <TaxBreakdown>
+          <TaxCode>DE</TaxCode>
+          <TaxAmount Name="Billed">9.820</TaxAmount>
+        </TaxBreakdown>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargePercentage>-9</AddOnChargePercentage>
+        <AddOnChargeAmount>-39.42</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargePercentage>-1.76</AddOnChargePercentage>
+        <AddOnChargeAmount>-7.56</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargePercentage>-3.20</AddOnChargePercentage>
+        <AddOnChargeAmount>-0.750</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>358.470</TotalNetAmount>
+      <SamplingFormDDetails>
+        <ProvisionalInvoiceNumber>8P251LK</ProvisionalInvoiceNumber>
+        <TicketIssuingAirline>111</TicketIssuingAirline>
+        <CouponNumber>4</CouponNumber>
+        <TicketDocNumber>2196074961</TicketDocNumber>
+        <ProvisionalGrossALFAmount>946.850</ProvisionalGrossALFAmount>
+        <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+        <OriginalPMI>A</OriginalPMI>
+        <Attachment>
+          <AttachmentIndicatorOriginal>Y</AttachmentIndicatorOriginal>
+        </Attachment>
+      </SamplingFormDDetails>
+    </LineItemDetail>
+    <LineItemDetail>
+      <DetailNumber>2</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>4</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>192</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">426.900</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">23.440</TaxAmount>
+        <TaxBreakdown>
+          <TaxCode>DE</TaxCode>
+          <TaxAmount Name="Billed">9.880</TaxAmount>
+        </TaxBreakdown>
+        <TaxBreakdown>
+          <TaxCode>RD</TaxCode>
+          <TaxAmount Name="Billed">13.560</TaxAmount>
+        </TaxBreakdown>
+      </Tax>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount Name="Billed">-5.380</TaxAmount>
+        <TaxBreakdown>
+          <TaxLabel>VAT</TaxLabel>
+          <TaxIdentifier>IS</TaxIdentifier>
+          <TaxableAmount>-38.420</TaxableAmount>
+          <TaxPercent>14.00</TaxPercent>
+          <TaxAmount Name="Billed">-5.380</TaxAmount>
+          <TaxText>DE VAT ON ISC</TaxText>
+        </TaxBreakdown>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargePercentage>-9</AddOnChargePercentage>
+        <AddOnChargeAmount>-35.300</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-8.260</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>395.830</TotalNetAmount>
+      <SamplingFormDDetails>
+        <ProvisionalInvoiceNumber>8P251LK</ProvisionalInvoiceNumber>
+        <TicketIssuingAirline>111</TicketIssuingAirline>
+        <CouponNumber>1</CouponNumber>
+        <TicketDocNumber>9621251761</TicketDocNumber>
+        <ProvisionalGrossALFAmount>802.310</ProvisionalGrossALFAmount>
+        <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+        <OriginalPMI>A</OriginalPMI>
+        <ReasonCode>NX</ReasonCode>
+        <ProrateSlipBreakdown>PRORATE SLIP LINE 1 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+        <ProrateSlipBreakdown>PRORATE SLIP LINE 2 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+        <ProrateSlipBreakdown>PRORATE SLIP LINE 3 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+        <ProrateSlipBreakdown>PRORATE SLIP LINE 4 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+        <ProrateSlipBreakdown>PRORATE SLIP LINE 5 FOR THIS COUPON</ProrateSlipBreakdown>
+        <Attachment>
+          <AttachmentIndicatorOriginal>Y</AttachmentIndicatorOriginal>
+        </Attachment>
+      </SamplingFormDDetails>
+    </LineItemDetail>
+    <InvoiceSummary>
+      <LineItemCount>1</LineItemCount>
+      <TotalLineItemAmount>819.110</TotalLineItemAmount>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount>-261.89</TaxAmount>
+        <TaxBreakdown>
+          <TaxLabel>VAT</TaxLabel>
+          <TaxIdentifier>IS</TaxIdentifier>
+          <TaxableAmount>-1870.64</TaxableAmount>
+          <TaxPercent>14.00</TaxPercent>
+          <TaxAmount>-261.89</TaxAmount>
+          <TaxText>DE VAT ON ISC</TaxText>
+        </TaxBreakdown>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-73.720</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-7.510</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-3.200</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-8.260</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalTaxAmount>33.260</TotalTaxAmount>
+      <TotalVATAmount>-5.380</TotalVATAmount>
+      <TotalAmountWithoutVAT>754.300</TotalAmountWithoutVAT>
+      <TotalAmount>754.300</TotalAmount>
+      <SamplingFormEDetails>
+        <GrossTotalOfUniverse>39426.930</GrossTotalOfUniverse>
+        <GrossTotalOfUAF>1185.200</GrossTotalOfUAF>
+        <UniverseAdjustedGrossAmount>38241.730</UniverseAdjustedGrossAmount>
+        <GrossTotalOfSample>819.110</GrossTotalOfSample>
+        <GrossTotalOfUAFSampleCoupon>33.520</GrossTotalOfUAFSampleCoupon>
+        <SampleAdjustedGrossAmount>785.590</SampleAdjustedGrossAmount>
+        <SamplingConstant>48.679</SamplingConstant>
+        <ListingAmountAfterSC Name="Gross">39873.46</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="ISC">-3588.62</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="OtherCommission">-365.58</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="UATP">-155.77</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="HandlingFee">-402.090</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="Tax">1619.060</ListingAmountAfterSC>
+        <ListingAmountAfterSC Name="VAT">-261.89</ListingAmountAfterSC>
+        <NetAmountDueInListingCurrency>36718.570</NetAmountDueInListingCurrency>
+        <NetAmountDueInBillingCurrency>36718.570</NetAmountDueInBillingCurrency>
+        <TotalFormBAmount>38421.070</TotalFormBAmount>
+        <NetBilledCreditedAmount>1702.500</NetBilledCreditedAmount>
+        <ProvisionalInvoiceDetails>
+          <ProvisionalInvoiceNumber>8P251LK</ProvisionalInvoiceNumber>
+          <ProvisionalInvoiceDate>100905</ProvisionalInvoiceDate>
+          <ProvisionalBillingPeriodNo>4</ProvisionalBillingPeriodNo>
+          <ProvisionalInvoiceListingCurrency>USD</ProvisionalInvoiceListingCurrency>
+          <ProvisionalInvoiceListingAmount>38421.070</ProvisionalInvoiceListingAmount>
+          <ProvisionalListingToBillingRate>1.000</ProvisionalListingToBillingRate>
+          <ProvisionalInvoiceBillingAmount>38421.070</ProvisionalInvoiceBillingAmount>
+        </ProvisionalInvoiceDetails>
+      </SamplingFormEDetails>
+      <LegalText>Footer Text 1</LegalText>
+      <LegalText>Footer Text 2</LegalText>
+      <LegalText>Footer Text 3</LegalText>
+      <LegalText>Footer Text 4</LegalText>
+      <LegalText>Footer Text 5</LegalText>
+    </InvoiceSummary>
+  </Invoice>
+  <Invoice>
+    <InvoiceHeader>
+      <InvoiceNumber>PSAB2387</InvoiceNumber>
+      <InvoiceDate>2011-01-03</InvoiceDate>
+      <InvoiceType>Invoice</InvoiceType>
+      <ChargeCategory>Pax Sample Form AB</ChargeCategory>
+      <SellerOrganization>
+        <OrganizationID>111</OrganizationID>
+      </SellerOrganization>
+      <BuyerOrganization>
+        <OrganizationID>222</OrganizationID>
+      </BuyerOrganization>
+      <PaymentTerms>
+        <CurrencyCode>USD</CurrencyCode>
+        <ClearanceCurrencyCode>USD</ClearanceCurrencyCode>
+        <ExchangeRate>1.000</ExchangeRate>
+        <SettlementMonthPeriod>101204</SettlementMonthPeriod>
+        <SettlementMethod>I</SettlementMethod>
+      </PaymentTerms>
+      <ISDetails>
+        <DigitalSignatureFlag>D</DigitalSignatureFlag>
+      </ISDetails>
+    </InvoiceHeader>
+    <LineItem>
+      <LineItemNumber>1</LineItemNumber>
+      <ChargeCode>1</ChargeCode>
+      <ChargeAmount>3969.730</ChargeAmount>
+      <TotalNetAmount>3969.730</TotalNetAmount>
+      <DetailCount>2</DetailCount>
+    </LineItem>
+    <LineItem>
+      <LineItemNumber>2</LineItemNumber>
+      <ChargeCode>90</ChargeCode>
+      <ChargeAmount>27.430</ChargeAmount>
+      <TotalNetAmount>27.430</TotalNetAmount>
+      <DetailCount>1</DetailCount>
+    </LineItem>
+    <LineItem>
+      <LineItemNumber>3</LineItemNumber>
+      <ChargeCode>2</ChargeCode>
+      <ChargeAmount>852.090</ChargeAmount>
+      <TotalNetAmount>852.090</TotalNetAmount>
+      <DetailCount>1</DetailCount>
+    </LineItem>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>1</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>1</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">927.710</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">0.000</TaxAmount>
+      </Tax>
+      <TotalNetAmount>927.710</TotalNetAmount>
+      <CouponDetails>
+        <TicketOrFIMIssuingAirline>*!!*</TicketOrFIMIssuingAirline>
+        <TicketOrFIMCouponNumber>3</TicketOrFIMCouponNumber>
+        <TicketDocOrFIMNumber>6310217937</TicketDocOrFIMNumber>
+        <CheckDigit>3</CheckDigit>
+        <ElectronicTicketIndicator>E</ElectronicTicketIndicator>
+        <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+        <OriginalPMI>A</OriginalPMI>
+        <AirlineFlightDesignator>LH</AirlineFlightDesignator>
+        <FlightNo>3261</FlightNo>
+        <FlightDate>2010-12-10</FlightDate>
+        <FromAirportCode>MUC</FromAirportCode>
+        <ToAirportCode>LHR</ToAirportCode>
+        <FilingReference>ABCDE</FilingReference>
+        <SettlementAuthorizationCode>8SJHS322</SettlementAuthorizationCode>
+        <CabinClass>Y</CabinClass>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+      </CouponDetails>
+    </LineItemDetail>
+    <LineItemDetail>
+      <DetailNumber>2</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>1</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>2</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">3042.020</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">0.000</TaxAmount>
+      </Tax>
+      <TotalNetAmount>3042.020</TotalNetAmount>
+      <CouponDetails>
+        <TicketOrFIMIssuingAirline>*!!*</TicketOrFIMIssuingAirline>
+        <TicketOrFIMCouponNumber>3</TicketOrFIMCouponNumber>
+        <TicketDocOrFIMNumber>9962086471</TicketDocOrFIMNumber>
+        <CheckDigit>2</CheckDigit>
+        <ElectronicTicketIndicator>E</ElectronicTicketIndicator>
+        <AgreementIndicatorSupplied>I</AgreementIndicatorSupplied>
+        <OriginalPMI>N</OriginalPMI>
+        <AirlineFlightDesignator>LH</AirlineFlightDesignator>
+        <FlightNo>419</FlightNo>
+        <FlightDate>2010-12-04</FlightDate>
+        <FromAirportCode>FRA</FromAirportCode>
+        <ToAirportCode>IAD</ToAirportCode>
+        <SettlementAuthorizationCode>A8KD53ND</SettlementAuthorizationCode>
+        <CabinClass>C</CabinClass>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+        <ReferenceField10AN>7JF9N8V   </ReferenceField10AN>
+      </CouponDetails>
+    </LineItemDetail>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>2</LineItemNumber>
+      <BatchSequenceNumber>3</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>1</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">27.430</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">0.000</TaxAmount>
+      </Tax>
+      <TotalNetAmount>27.430</TotalNetAmount>
+      <CouponDetails>
+        <TicketOrFIMIssuingAirline>*!!*</TicketOrFIMIssuingAirline>
+        <TicketOrFIMCouponNumber>1</TicketOrFIMCouponNumber>
+        <TicketDocOrFIMNumber>6733851074</TicketDocOrFIMNumber>
+        <CheckDigit>3</CheckDigit>
+        <ElectronicTicketIndicator>E</ElectronicTicketIndicator>
+        <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+        <OriginalPMI>B</OriginalPMI>
+        <AirlineFlightDesignator>LH</AirlineFlightDesignator>
+        <FlightNo>391</FlightNo>
+        <FlightDate>2010-12-06</FlightDate>
+        <FromAirportCode>TXL</FromAirportCode>
+        <ToAirportCode>DUS</ToAirportCode>
+        <SettlementAuthorizationCode>87SAJDH</SettlementAuthorizationCode>
+        <CabinClass>Y</CabinClass>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+        <ReferenceField10AN>291</ReferenceField10AN>
+        <ReferenceField10AN>L</ReferenceField10AN>
+        <ReferenceField10AN>20100819</ReferenceField10AN>
+        <ReferenceField10AN>2743</ReferenceField10AN>
+        <ReferenceField20AN>LMILES</ReferenceField20AN>
+      </CouponDetails>
+    </LineItemDetail>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>3</LineItemNumber>
+      <BatchSequenceNumber>2</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>1</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">852.090</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">0.000</TaxAmount>
+      </Tax>
+      <TotalNetAmount>852.090</TotalNetAmount>
+      <CouponDetails>
+        <TicketOrFIMIssuingAirline>*!!*</TicketOrFIMIssuingAirline>
+        <TicketOrFIMCouponNumber>1</TicketOrFIMCouponNumber>
+        <TicketDocOrFIMNumber>4482097329</TicketDocOrFIMNumber>
+        <CheckDigit>6</CheckDigit>
+        <ElectronicTicketIndicator>E</ElectronicTicketIndicator>
+        <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+        <OriginalPMI>A</OriginalPMI>
+        <AirlineFlightDesignator>LH</AirlineFlightDesignator>
+        <FlightNo>4172</FlightNo>
+        <FlightDate>2010-12-12</FlightDate>
+        <FromAirportCode>FRA</FromAirportCode>
+        <ToAirportCode>WAW</ToAirportCode>
+        <FilingReference>MMMM</FilingReference>
+        <SettlementAuthorizationCode>N9V87A7632</SettlementAuthorizationCode>
+        <CabinClass>Y</CabinClass>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+      </CouponDetails>
+    </LineItemDetail>
+    <InvoiceSummary>
+      <LineItemCount>3</LineItemCount>
+      <TotalLineItemAmount>4849.250</TotalLineItemAmount>
+      <TotalAmountWithoutVAT>4247.950</TotalAmountWithoutVAT>
+      <TotalAmount>4247.950</TotalAmount>
+      <TotalAmountInClearanceCurrency>4247.950</TotalAmountInClearanceCurrency>
+      <SamplingProvisionalAdjustmentDetails>
+        <AbsorptionDetails>
+          <AbsorptionName>FareAbsorption</AbsorptionName>
+          <AbsorptionAmount>-387.940</AbsorptionAmount>
+          <AbsorptionPercentage>-8.000</AbsorptionPercentage>
+        </AbsorptionDetails>
+        <AbsorptionDetails>
+          <AbsorptionName>UATPAbsorption</AbsorptionName>
+          <AbsorptionAmount>-1.450</AbsorptionAmount>
+          <AbsorptionPercentage>-0.030</AbsorptionPercentage>
+        </AbsorptionDetails>
+        <AbsorptionDetails>
+          <AbsorptionName>TaxAbsorption</AbsorptionName>
+          <AbsorptionAmount>363.690</AbsorptionAmount>
+          <AbsorptionPercentage>7.500</AbsorptionPercentage>
+        </AbsorptionDetails>
+        <AbsorptionDetails>
+          <AbsorptionName>HandlingFeeAbsorption</AbsorptionName>
+          <AbsorptionAmount>-139.170</AbsorptionAmount>
+          <AbsorptionPercentage>-2.870</AbsorptionPercentage>
+        </AbsorptionDetails>
+        <AbsorptionDetails>
+          <AbsorptionName>ISCAbsorption</AbsorptionName>
+          <AbsorptionAmount>-436.430</AbsorptionAmount>
+          <AbsorptionPercentage>-9.000</AbsorptionPercentage>
+        </AbsorptionDetails>
+        <TotalProvisionalAdjustmentRate>-12.400</TotalProvisionalAdjustmentRate>
+        <TotalProvisionalAdjustmentAmount>-601.300</TotalProvisionalAdjustmentAmount>
+      </SamplingProvisionalAdjustmentDetails>
+    </InvoiceSummary>
+  </Invoice>
+  <Invoice>
+    <InvoiceHeader>
+      <InvoiceNumber>PSXF0409</InvoiceNumber>
+      <InvoiceDate>2011-01-04</InvoiceDate>
+      <InvoiceType>Invoice</InvoiceType>
+      <ChargeCategory>Pax Sample Form XF</ChargeCategory>
+      <SellerOrganization>
+        <OrganizationID>111</OrganizationID>
+        <OrganizationName1>Legal name of biller</OrganizationName1>
+        <TaxRegistrationID>Biller Tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Biller tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Biller Co. Reg. Id       Biller Address line #1</AddressLine1>
+          <AddressLine2>Biller Address line #2</AddressLine2>
+          <AddressLine3>Biller Address line #3</AddressLine3>
+          <CityName>biller city name</CityName>
+          <CountryCode>DE</CountryCode>
+          <CountryName>Germany</CountryName>
+          <PostalCode>Biller postal code</PostalCode>
+        </Address>
+      </SellerOrganization>
+      <BuyerOrganization>
+        <OrganizationID>222</OrganizationID>
+        <OrganizationName1>Legal name of billed airline</OrganizationName1>
+        <TaxRegistrationID>Billed airline tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Billed airline tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Billed Co. Reg. Id       Billed airline address line #1</AddressLine1>
+          <AddressLine2>Billed airline address line #2</AddressLine2>
+          <CityName>Billed airline city name</CityName>
+          <SubdivisionCode>K</SubdivisionCode>
+          <SubdivisionName>Borough K</SubdivisionName>
+          <CountryCode>GB</CountryCode>
+          <CountryName>United Kingdom</CountryName>
+          <PostalCode>KB30 951</PostalCode>
+        </Address>
+      </BuyerOrganization>
+      <PaymentTerms>
+        <CurrencyCode>USD</CurrencyCode>
+        <ClearanceCurrencyCode>USD</ClearanceCurrencyCode>
+        <ExchangeRate>1.000</ExchangeRate>
+        <SettlementMonthPeriod>101204</SettlementMonthPeriod>
+        <SettlementMethod>I</SettlementMethod>
+      </PaymentTerms>
+      <ISDetails>
+        <DigitalSignatureFlag>Y</DigitalSignatureFlag>
+      </ISDetails>
+    </InvoiceHeader>
+    <LineItem>
+      <LineItemNumber>1</LineItemNumber>
+      <ChargeCode>56</ChargeCode>
+      <ChargeAmount>113.390</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">5.97</TaxAmount>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-10.21</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargeAmount>12.560</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargeAmount>4.710</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>6.220</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>132.640</TotalNetAmount>
+      <TotalAmountAfterSamplingConstant>5599.530</TotalAmountAfterSamplingConstant>
+      <DetailCount>1</DetailCount>
+    </LineItem>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>1</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>1</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">741.210</ChargeAmount>
+      <ChargeAmount Name="GrossAccepted">627.820</ChargeAmount>
+      <ChargeAmount Name="GrossDifference">113.390</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">18.210</TaxAmount>
+        <TaxAmount Name="Accepted">12.240</TaxAmount>
+        <TaxAmount Name="Difference">5.970</TaxAmount>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-66.71</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAccepted</AddOnChargeName>
+        <AddOnChargeAmount>-56.50</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>ISCDifference</AddOnChargeName>
+        <AddOnChargeAmount>-10.21</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>0</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAccepted</AddOnChargeName>
+        <AddOnChargeAmount>-6.22</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeDifference</AddOnChargeName>
+        <AddOnChargeAmount>6.22</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargeAmount>0</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAccepted</AddOnChargeName>
+        <AddOnChargeAmount>-12.560</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionDifference</AddOnChargeName>
+        <AddOnChargeAmount>12.560</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargeAmount>0</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAccepted</AddOnChargeName>
+        <AddOnChargeAmount>-4.71</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPDifference</AddOnChargeName>
+        <AddOnChargeAmount>4.71</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>132.640</TotalNetAmount>
+      <RejectionMemoDetails>
+        <RejectionMemoNumber>PSRM662</RejectionMemoNumber>
+        <RejectionStage>3</RejectionStage>
+        <ReasonCode>1A</ReasonCode>
+        <ReasonDescription>Remarks text 1</ReasonDescription>
+        <ReasonDescription>Remarks text 2</ReasonDescription>
+        <ReasonDescription>Remarks text 3</ReasonDescription>
+        <ReasonDescription>Remarks text 4</ReasonDescription>
+        <ReasonDescription>Remarks text 5</ReasonDescription>
+        <OurRef>B21</OurRef>
+        <YourInvoiceNumber>7B3X921</YourInvoiceNumber>
+        <YourInvoiceBillingDate>101104</YourInvoiceBillingDate>
+        <YourRejectionMemoNumber>6NT9BX7</YourRejectionMemoNumber>
+        <SamplingConstant>42.216</SamplingConstant>
+        <TotalNetRejectAfterSC>5599.530</TotalNetRejectAfterSC>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+        <AirlineOwnUse20AN>B8520</AirlineOwnUse20AN>
+        <RMCouponBreakdown>
+          <BreakdownSerialNumber>1</BreakdownSerialNumber>
+          <TicketIssuingAirline>111</TicketIssuingAirline>
+          <CouponNumber>1</CouponNumber>
+          <TicketDocNumber>6651066952</TicketDocNumber>
+          <CheckDigit>4</CheckDigit>
+          <ChargeAmount Name="GrossBilled">741.210</ChargeAmount>
+          <ChargeAmount Name="GrossAccepted">627.820</ChargeAmount>
+          <ChargeAmount Name="GrossDifference">113.390</ChargeAmount>
+          <Tax>
+            <TaxType>Tax</TaxType>
+            <TaxAmount Name="Billed">18.210</TaxAmount>
+            <TaxAmount Name="Accepted">12.240</TaxAmount>
+            <TaxAmount Name="Difference">5.970</TaxAmount>
+            <TaxBreakdown>
+              <TaxCode>UB</TaxCode>
+              <TaxAmount Name="Billed">18.210</TaxAmount>
+              <TaxAmount Name="Accepted">12.240</TaxAmount>
+              <TaxAmount Name="Difference">5.970</TaxAmount>
+            </TaxBreakdown>
+          </Tax>
+          <AddOnCharges>
+            <AddOnChargeName>ISCAllowed</AddOnChargeName>
+            <AddOnChargePercentage>-9</AddOnChargePercentage>
+            <AddOnChargeAmount>-66.71</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>ISCAccepted</AddOnChargeName>
+            <AddOnChargePercentage>-9</AddOnChargePercentage>
+            <AddOnChargeAmount>-56.50</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>ISCDifference</AddOnChargeName>
+            <AddOnChargeAmount>-10.21</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+            <AddOnChargeAmount>0</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>HandlingFeeAccepted</AddOnChargeName>
+            <AddOnChargeAmount>-6.22</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>HandlingFeeDifference</AddOnChargeName>
+            <AddOnChargeAmount>6.22</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+            <AddOnChargePercentage>0</AddOnChargePercentage>
+            <AddOnChargeAmount>0</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>OtherCommissionAccepted</AddOnChargeName>
+            <AddOnChargePercentage>-2</AddOnChargePercentage>
+            <AddOnChargeAmount>-12.560</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>OtherCommissionDifference</AddOnChargeName>
+            <AddOnChargeAmount>12.560</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>UATPAllowed</AddOnChargeName>
+            <AddOnChargePercentage>0</AddOnChargePercentage>
+            <AddOnChargeAmount>0</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>UATPAccepted</AddOnChargeName>
+            <AddOnChargePercentage>0</AddOnChargePercentage>
+            <AddOnChargeAmount>-4.71</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>UATPDifference</AddOnChargeName>
+            <AddOnChargeAmount>4.71</AddOnChargeAmount>
+          </AddOnCharges>
+          <TotalNetAmount>132.640</TotalNetAmount>
+          <FromAirportCode>LHR</FromAirportCode>
+          <ToAirportCode>BHX</ToAirportCode>
+          <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+          <OriginalPMI>A</OriginalPMI>
+          <SettlementAuthorizationCode>H9NX7NWOI</SettlementAuthorizationCode>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 1 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 2 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 3 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 4 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 5 FOR THIS COUPON</ProrateSlipBreakdown>
+          <Attachment>
+            <AttachmentIndicatorOriginal>Y</AttachmentIndicatorOriginal>
+          </Attachment>
+        </RMCouponBreakdown>
+      </RejectionMemoDetails>
+    </LineItemDetail>
+    <InvoiceSummary>
+      <LineItemCount>1</LineItemCount>
+      <TotalLineItemAmount>113.390</TotalLineItemAmount>
+      <AddOnCharges>
+        <AddOnChargeName>OtherCommissionAllowed</AddOnChargeName>
+        <AddOnChargeAmount>12.560</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>UATPAllowed</AddOnChargeName>
+        <AddOnChargeAmount>4.710</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>HandlingFeeAllowed</AddOnChargeName>
+        <AddOnChargeAmount>6.220</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalTaxAmount>5.970</TotalTaxAmount>
+      <TotalAmountWithoutVAT>5599.530</TotalAmountWithoutVAT>
+      <TotalAmount>5599.530</TotalAmount>
+      <TotalAmountInClearanceCurrency>5599.530</TotalAmountInClearanceCurrency>
+      <LegalText>Footer Text 1</LegalText>
+      <LegalText>Footer Text 2</LegalText>
+      <LegalText>Footer Text 3</LegalText>
+      <LegalText>Footer Text 4</LegalText>
+      <LegalText>Footer Text 5</LegalText>
+    </InvoiceSummary>
+  </Invoice>
+  <Invoice>
+    <InvoiceHeader>
+      <InvoiceNumber>PSF0347</InvoiceNumber>
+      <InvoiceDate>2011-01-04</InvoiceDate>
+      <InvoiceType>Invoice</InvoiceType>
+      <ChargeCategory>Pax Sample Form F</ChargeCategory>
+      <SellerOrganization>
+        <OrganizationID>111</OrganizationID>
+        <OrganizationName1>Legal name of biller</OrganizationName1>
+        <TaxRegistrationID>Biller Tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Biller tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Biller Co. Reg. Id       Biller Address line #1</AddressLine1>
+          <AddressLine2>Biller Address line #2</AddressLine2>
+          <AddressLine3>Biller Address line #3</AddressLine3>
+          <CityName>biller city name</CityName>
+          <CountryCode>DE</CountryCode>
+          <CountryName>Germany</CountryName>
+          <PostalCode>Biller postal code</PostalCode>
+        </Address>
+      </SellerOrganization>
+      <BuyerOrganization>
+        <OrganizationID>222</OrganizationID>
+        <OrganizationName1>Legal name of billed airline</OrganizationName1>
+        <TaxRegistrationID>Billed airline tax Id 1</TaxRegistrationID>
+        <CompanyRegistrationID>Billed airline tax Id 2</CompanyRegistrationID>
+        <Address>
+          <AddressLine1>Billed Co. Reg. Id       Billed airline address line #1</AddressLine1>
+          <AddressLine2>Billed airline address line #2</AddressLine2>
+          <CityName>Billed airline city name</CityName>
+          <SubdivisionCode>K</SubdivisionCode>
+          <SubdivisionName>Borough K</SubdivisionName>
+          <CountryCode>GB</CountryCode>
+          <CountryName>United Kingdom</CountryName>
+          <PostalCode>KB30 951</PostalCode>
+        </Address>
+      </BuyerOrganization>
+      <PaymentTerms>
+        <CurrencyCode>USD</CurrencyCode>
+        <ClearanceCurrencyCode>USD</ClearanceCurrencyCode>
+        <ExchangeRate>1.000</ExchangeRate>
+        <SettlementMonthPeriod>101204</SettlementMonthPeriod>
+        <SettlementMethod>I</SettlementMethod>
+      </PaymentTerms>
+      <ISDetails>
+        <DigitalSignatureFlag>Y</DigitalSignatureFlag>
+      </ISDetails>
+    </InvoiceHeader>
+    <LineItem>
+      <LineItemNumber>1</LineItemNumber>
+      <ChargeCode>55</ChargeCode>
+      <ChargeAmount>119.720</ChargeAmount>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount>-1.510</TaxAmount>
+        <TaxBreakdown>
+          <TaxLabel>VAT</TaxLabel>
+          <TaxIdentifier>IS</TaxIdentifier>
+          <TaxableAmount>-10.780</TaxableAmount>
+          <TaxPercent>14.00</TaxPercent>
+          <TaxAmount>-1.510</TaxAmount>
+          <TaxText>DE VAT ON ISC</TaxText>
+        </TaxBreakdown>
+      </Tax>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">11.15</TaxAmount>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-10.78</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>118.580</TotalNetAmount>
+      <TotalAmountAfterSamplingConstant>4438.690</TotalAmountAfterSamplingConstant>
+      <DetailCount>1</DetailCount>
+    </LineItem>
+    <LineItemDetail>
+      <DetailNumber>1</DetailNumber>
+      <LineItemNumber>1</LineItemNumber>
+      <BatchSequenceNumber>1</BatchSequenceNumber>
+      <RecordSequenceWithinBatch>1</RecordSequenceWithinBatch>
+      <ChargeAmount Name="GrossBilled">321.560</ChargeAmount>
+      <ChargeAmount Name="GrossAccepted">441.280</ChargeAmount>
+      <ChargeAmount Name="GrossDifference">119.720</ChargeAmount>
+      <Tax>
+        <TaxType>Tax</TaxType>
+        <TaxAmount Name="Billed">23.760</TaxAmount>
+        <TaxAmount Name="Accepted">34.910</TaxAmount>
+        <TaxAmount Name="Difference">11.150</TaxAmount>
+      </Tax>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount Name="Billed">-4.05</TaxAmount>
+        <TaxAmount Name="Accepted">-5.56</TaxAmount>
+        <TaxAmount Name="Difference">-1.51</TaxAmount>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-28.94</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAccepted</AddOnChargeName>
+        <AddOnChargeAmount>-39.72</AddOnChargeAmount>
+      </AddOnCharges>
+      <AddOnCharges>
+        <AddOnChargeName>ISCDifference</AddOnChargeName>
+        <AddOnChargeAmount>-10.78</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalNetAmount>118.580</TotalNetAmount>
+      <RejectionMemoDetails>
+        <RejectionMemoNumber>PSRM591</RejectionMemoNumber>
+        <RejectionStage>2</RejectionStage>
+        <ReasonCode>1A</ReasonCode>
+        <ReasonDescription>Remarks text 1</ReasonDescription>
+        <ReasonDescription>Remarks text 2</ReasonDescription>
+        <ReasonDescription>Remarks text 3</ReasonDescription>
+        <ReasonDescription>Remarks text 4</ReasonDescription>
+        <ReasonDescription>Remarks text 5</ReasonDescription>
+        <OurRef>X47</OurRef>
+        <YourInvoiceNumber>8N18652</YourInvoiceNumber>
+        <YourInvoiceBillingDate>101103</YourInvoiceBillingDate>
+        <SamplingConstant>37.432</SamplingConstant>
+        <TotalNetRejectAfterSC>4438.690</TotalNetRejectAfterSC>
+        <Attachment>
+          <AttachmentIndicatorOriginal>N</AttachmentIndicatorOriginal>
+        </Attachment>
+        <AirlineOwnUse20AN>PN7VXI</AirlineOwnUse20AN>
+        <RMCouponBreakdown>
+          <BreakdownSerialNumber>1</BreakdownSerialNumber>
+          <TicketIssuingAirline>111</TicketIssuingAirline>
+          <CouponNumber>3</CouponNumber>
+          <TicketDocNumber>9621843297</TicketDocNumber>
+          <CheckDigit>4</CheckDigit>
+          <ChargeAmount Name="GrossBilled">321.560</ChargeAmount>
+          <ChargeAmount Name="GrossAccepted">441.280</ChargeAmount>
+          <ChargeAmount Name="GrossDifference">119.720</ChargeAmount>
+          <Tax>
+            <TaxType>Tax</TaxType>
+            <TaxAmount Name="Billed">23.760</TaxAmount>
+            <TaxAmount Name="Accepted">34.910</TaxAmount>
+            <TaxAmount Name="Difference">11.150</TaxAmount>
+            <TaxBreakdown>
+              <TaxCode>DE</TaxCode>
+              <TaxAmount Name="Billed">9.540</TaxAmount>
+              <TaxAmount Name="Accepted">14.310</TaxAmount>
+              <TaxAmount Name="Difference">4.77</TaxAmount>
+            </TaxBreakdown>
+            <TaxBreakdown>
+              <TaxCode>RD</TaxCode>
+              <TaxAmount Name="Billed">14.220</TaxAmount>
+              <TaxAmount Name="Accepted">20.600</TaxAmount>
+              <TaxAmount Name="Difference">6.380</TaxAmount>
+            </TaxBreakdown>
+          </Tax>
+          <Tax>
+            <TaxType>VAT</TaxType>
+            <TaxAmount Name="Billed">-4.050</TaxAmount>
+            <TaxAmount Name="Accepted">-5.560</TaxAmount>
+            <TaxAmount Name="Difference">-1.510</TaxAmount>
+            <TaxBreakdown>
+              <TaxLabel>VAT</TaxLabel>
+              <TaxIdentifier>IS</TaxIdentifier>
+              <TaxableAmount>-10.780</TaxableAmount>
+              <TaxPercent>14.00</TaxPercent>
+              <TaxAmount>-1.510</TaxAmount>
+              <TaxText>DE VAT ON ISC</TaxText>
+            </TaxBreakdown>
+          </Tax>
+          <AddOnCharges>
+            <AddOnChargeName>ISCAllowed</AddOnChargeName>
+            <AddOnChargePercentage>-9</AddOnChargePercentage>
+            <AddOnChargeAmount>-28.94</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>ISCAccepted</AddOnChargeName>
+            <AddOnChargePercentage>-9</AddOnChargePercentage>
+            <AddOnChargeAmount>-39.72</AddOnChargeAmount>
+          </AddOnCharges>
+          <AddOnCharges>
+            <AddOnChargeName>ISCDifference</AddOnChargeName>
+            <AddOnChargeAmount>-10.78</AddOnChargeAmount>
+          </AddOnCharges>
+          <TotalNetAmount>118.580</TotalNetAmount>
+          <FromAirportCode>HAM</FromAirportCode>
+          <ToAirportCode>MUC</ToAirportCode>
+          <AgreementIndicatorSupplied>S</AgreementIndicatorSupplied>
+          <OriginalPMI>A</OriginalPMI>
+          <SettlementAuthorizationCode>P6VCX9YS0</SettlementAuthorizationCode>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 1 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 2 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 3 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 4 FOR THIS COUPON                                             </ProrateSlipBreakdown>
+          <ProrateSlipBreakdown>PRORATE SLIP LINE 5 FOR THIS COUPON</ProrateSlipBreakdown>
+          <Attachment>
+            <AttachmentIndicatorOriginal>Y</AttachmentIndicatorOriginal>
+          </Attachment>
+        </RMCouponBreakdown>
+      </RejectionMemoDetails>
+    </LineItemDetail>
+    <InvoiceSummary>
+      <LineItemCount>1</LineItemCount>
+      <TotalLineItemAmount>119.720</TotalLineItemAmount>
+      <Tax>
+        <TaxType>VAT</TaxType>
+        <TaxAmount>-1.510</TaxAmount>
+        <TaxBreakdown>
+          <TaxLabel>VAT</TaxLabel>
+          <TaxIdentifier>IS</TaxIdentifier>
+          <TaxableAmount>-10.780</TaxableAmount>
+          <TaxPercent>14.00</TaxPercent>
+          <TaxAmount>-1.510</TaxAmount>
+          <TaxText>DE VAT ON ISC</TaxText>
+        </TaxBreakdown>
+      </Tax>
+      <AddOnCharges>
+        <AddOnChargeName>ISCAllowed</AddOnChargeName>
+        <AddOnChargeAmount>-10.78</AddOnChargeAmount>
+      </AddOnCharges>
+      <TotalTaxAmount>11.150</TotalTaxAmount>
+      <TotalVATAmount>-1.510</TotalVATAmount>
+      <TotalVatAmountAfterSamplingConstant>-56.520</TotalVatAmountAfterSamplingConstant>
+      <TotalAmountWithoutVAT>4495.210</TotalAmountWithoutVAT>
+      <TotalAmount>4438.690</TotalAmount>
+      <TotalAmountInClearanceCurrency>4438.690</TotalAmountInClearanceCurrency>
+      <LegalText>Footer Text 1</LegalText>
+      <LegalText>Footer Text 2</LegalText>
+      <LegalText>Footer Text 3</LegalText>
+      <LegalText>Footer Text 4</LegalText>
+      <LegalText>Footer Text 5</LegalText>
+    </InvoiceSummary>
+  </Invoice>
+  <TransmissionSummary>
+    <InvoiceCount>4</InvoiceCount>
+    <TotalAmount CurrencyCode="USD">15988.670</TotalAmount>
+  </TransmissionSummary>
+</InvoiceTransmission>
+
+
+
+
+
+
