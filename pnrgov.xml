@@ -1,0 +1,149 @@
+<IATA_PNRGOV_NotifRQ
+ EchoToken="123456" TimeStamp="2013-05-27T07:54:00" Target="Production" Version="1.000"
+TransactionIdentifier="a8431fd0-e8a7-11e2-91e2-0800200c"
+ SequenceNmbr="1" TransactionStatusCode="Start" RetransmissionIndicator="false"
+CorrelationID="57ab4200-e8a7-11e2-91e2-0800200c9a66"
+ xsi:schemaLocation="http://www.iata.org/IATA/2007/00 IATA_PNR_GOV_NotifRQ.xsd"
+ xmlns="http://www.iata.org/IATA/2007/00"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Originator AirlineCode="SQ" SystemCode="1A" AirlineContactInfo="1-800-AIR-LINE"/>
+<FlightLeg CarrierCode="SQ" FlightNumber="609" DepartureDateTime="2013-05-27T16:40:00"
+ArrivalDateTime="2013-05-28T22:00:00" DateChangeNbr="+1">
+ <DepartureAirport LocationCode="ICN"/>
+ <ArrivalAirport LocationCode="SIN"/>
+</FlightLeg>
+<PNRs NumberOfPnrs="1">
+ <PNR NumberOfPassengers="2" PNR_TransDate="2013-05-13T21:25:00"
+PNR_CreationDate="2013-05-01" LastTktDate="2013-05-13T21:24:00">
+ <BookingRefID ID="W9TEND">
+ <CompanyName TravelSector="1" Code="TZ"/>
+ </BookingRefID>
+ <SSR SSRCode="OTHS" ServiceQuantity="1" Status="HK" BoardPoint="SIN"
+OffPoint="OOL" RPH="1234234">
+ <Airline Code="TZ" />
+ <Text>ADV TKT NUMBER BY 03MAY13 1800CO OR WILL CANCEL</Text>
+ </SSR>
+ <OSI Code="CTC">
+ <TravelerRefNumber RPH="1234234" />
+ <Airline Code="TZ"/>
+ <Text>7732486972</Text>
+ </OSI>
+ <POS>
+ <Source AgentSine="HDQKE2400" PseudoCityCode="MUC" ISOCountry="KR"
+ISOCurrency="KRW" AgentDutyCode="3482192" AirlineVendorID="KE" AirportCode="NBE">
+ <RequestorID ID="123456789">
+ <CompanyName Code="TZ"/>
+ </RequestorID>
+ </Source>
+ </POS>
+ <ContactInfo PhoneNumber="5555555" PhoneType="4" EmailAddress="bob@domain.com">
+ <StreetNmbr StreetNmbrSuffix="123" StreetDirection="NW"/>
+ <AddressLine>ANY STREET</AddressLine>
+ <CityName>LAKE TOWN</CityName>
+ <PostalCode>55123</PostalCode>
+ <StateProv StateCode="MN"/>
+ <CountryName Code="US"/>
+ </ContactInfo>
+ <PrepaidBag UnitOffMeasureQuantity="2" UnitOfMeasureCode="700" Amount="26.00"
+CurrencyCode="CAD" BagDestination="SIN"/>
+ <Passenger RPH="1234234" SurnameRefNumber="43576" BoardingStatus="63">
+ <GivenName>KEVINMICHAELMR</GivenName>
+ <Surname>DENBERG</Surname>
+ <CustLoyalty ProgramID="TZ" MembershipID="1234567"/>
+ <ExcessBaggage IssuerCode="SQ" SerialNumber="0012313122"
+SequenceCount="1" BaggagePool="MP" UnitOfMeasureQuantity="20" UnitOfMeasureCode="700"/>
+ <FareInfo PTC_Code="A" DiscountedFareType="764" DiscountPercent="5"
+CountryCode="US" DiscFareClassType="B2" FareBasis="SFLY"/>
+ <SSR SSRCode="NSSA" ServiceQuantity="1" Status="HN" BoardPoint="ICN"
+OffPoint="SIN" RPH="1234234" SurnameRefNumber="1">
+ <Airline Code="SQ"/>
+ <Text>MADDOX/MOLLY</Text>
+ </SSR>
+<TicketDocument TicketDocumentNbr="121341212311" Type="1"
+DateOfIssue="2013-05-13" TicketLocation="SIN" PrimaryDocInd="true">
+ <TotalFare Amount="1999.99" CurrencyCode="SGD"/>
+ <PricingInfo Date="2013-05-01" Time="12:15:00" ISOCountryCode="CN"
+LocationCode="S1N" NonEndorsableInd="true" NonRefundableInd="true"
+ PenaltyRestrictionInd="true"/>
+ <Taxes>
+ <Tax Amount="99.99" ISOCountry="CN" CurrencyCode="SGD"
+ TaxType="BK"/>
+ <Tax Amount="99.99" ISOCountry="CN" CurrencyCode="SGD"
+ TaxType="OO"/>
+ <Tax Amount="99.99" ISOCountry="CN" CurrencyCode="SGD"
+ TaxType="YY"/>
+ </Taxes>
+<PaymentInfo PaymentType="CC" PaymentUse="NEW"
+PaymentAmount="999.00" VendorCode="MC" ccountNbr="************1344" ExpiryDate="1214"
+CardHolderName="KEVIN MICHAEL VON DENBERG"/>
+ </TicketDocument>
+<DOC_SSR SSRCode="DOCA" ServiceQuantity="1" Status="HK">
+ <FlightInfo Code="TZ"/>
+ <DOCA AddressType="D" Address="123 Jefferson Ave" CityName="Atlanta"
+PostalCode="13445" StateProvCounty="GA" Country="USA"/>
+ </DOC_SSR>
+<DOC_SSR SSRCode="DOCO" ServiceQuantity="1" Status="HK">
+ <DOCO BirthLocation="USA" TravelDocType="V" TravelDocNbr="1214213"
+PlaceOfIssue="CAN" DateOfIssue="02FEB12" CountryState="CAN"/>
+ </DOC_SSR>
+<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK">
+ <DOCS DateOfBirth="04JUL80" ExpiryDate="12JAN19"
+FirstGivenName="KEVIN" SecondGivenName="MICHAEL" Surname="VON DENBERG"
+ Gender="M" IssuingLoc="USA" PaxNationality="USA"
+TravelDocNbr="548721687" TravelDocType="P"/>
+ </DOC_SSR>
+ </Passenger>
+ <Flight DepartureDateTime="2013-05-31T22:25:00" ArrivalDateTime="2013-05-29T07:50:00"
+ResBookDesigCode="S" NumberInParty="1" Status="HK"
+ FlightNumber="6">
+ <DepartureAirport LocationCode="SIN"/>
+ <ArrivalAirport LocationCode="OOL"/>
+ <OperatingAirline Code="SQ" FlightNumber="4523" ResBookDesigCode="S"/>
+ <MarketingAirline Code="TX"/>
+ <CheckInInfo AgentID="131312" Time="2013-05-27T13:00:00">
+ <BoardingNumber Number="5">
+ <Passenger>
+ <GivenName>KEVINMICHAELMR</GivenName>
+ <Surname>DENBERG</Surname>
+ </Passenger>
+<SeatNumber CabinClass="Y">23</SeatNumber>
+ <CheckedBag IssuerCode="SQ" SerialNumber="0012313122"
+SequenceCount="1" BaggagePool="MP"/>
+ </BoardingNumber>
+ </CheckInInfo>
+ </Flight>
+ <SplitPNR NbrOfPassengers="1" VendorCode="SG" PNR_ID="YASDAS"/>
+ <OtherTravelSegment ServiceID="HTL" StartDate="2013-05-27" EndDate="2013-05-30"
+Quantity="1">
+ <StartLocation LocationCode="ICN"/>
+ <HotelInfo
+ CustomerName="Kevin Von Denberg" HotelName="Hilton"
+PropertyID="14234" Rate="150.00"/>
+ </OtherTravelSegment>
+<OtherTravelSegment ServiceID="CAR" StartDate="2013-05-27" EndDate="2013-05-30"
+Quantity="1">
+ <StartLocation LocationCode="ICN"/>
+ <EndLocation LocationCode="iICN"/>
+ <CarInfo RateType="USD" Rate="100" RatePeriod="WKY"/>
+ </OtherTravelSegment>
+ <StructuredPNR_History>
+ <Credit Type="4" TimeStamp="2013-05-13T18:13:00">
+ <CompanyName Code="TZ"/>
+ </Credit>
+<Item Action="X">
+ <Flight DepartureDateTime="2013-05-28T00:00:00" ArrivalDateTime="2013-
+05-29T00:00:00" ResBookDesigCode="S" NumberInParty="1"
+ Status="XX" FlightNumber="6">
+ <DepartureAirport LocationCode="SIN"/>
+ <ArrivalAirport LocationCode="OOL"/>
+ <MarketingAirline Code="TZ"/>
+ </Flight>
+ </Item>
+ </StructuredPNR_History>
+ <UnstructuredPNR_History>
+ 4/130513/TZ X 130528/130529/S/1/HK/6/SIN/OOL/TZ
+ </UnstructuredPNR_History>
+ </PNR>
+</PNRs>
+</IATA_PNRGOV_NotifRQ> 
+ 
