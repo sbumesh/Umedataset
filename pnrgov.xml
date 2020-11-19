@@ -77,16 +77,16 @@ LocationCode="S1N" NonEndorsableInd="true" NonRefundableInd="true"
 PaymentAmount="999.00" VendorCode="MC" ccountNbr="************1344" ExpiryDate="1214"
 CardHolderName="KEVIN MICHAEL VON DENBERG"/>
  </TicketDocument>
-<DOC_SSR SSRCode="DOCA" ServiceQuantity="1" Status="HK">
+<DOC_SSR SSRCode="DOCA" ServiceQuantity="1" Status="AK">
  <FlightInfo Code="TZ"/>
  <DOCA AddressType="D" Address="123 Jefferson Ave" CityName="Atlanta"
 PostalCode="13445" StateProvCounty="GA" Country="USA"/>
  </DOC_SSR>
-<DOC_SSR SSRCode="DOCO" ServiceQuantity="1" Status="HK">
+<DOC_SSR SSRCode="DOCO" ServiceQuantity="1" Status="OK" confirm="NO">
  <DOCO BirthLocation="USA" TravelDocType="V" TravelDocNbr="1214213"
 PlaceOfIssue="CAN" DateOfIssue="02FEB12" CountryState="CAN"/>
  </DOC_SSR>
-<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="HK">
+<DOC_SSR SSRCode="DOCS" ServiceQuantity="1" Status="SK">
  <DOCS DateOfBirth="04JUL80" ExpiryDate="12JAN19"
 FirstGivenName="KEVIN" SecondGivenName="MICHAEL" Surname="VON DENBERG"
  Gender="M" IssuingLoc="USA" PaxNationality="USA"
