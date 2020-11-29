@@ -1,0 +1,287 @@
+{
+  "CreatePassengerNameRecordRQ": {
+    "version": "2.3.0",
+    "targetCity": "G7HE",
+    "haltOnAirPriceError": false,
+    "TravelItineraryAddInfo": {
+      "AgencyInfo": {
+        "Address": {
+          "AddressLine": "SABRE TRAVEL",
+          "CityName": "SOUTHLAKE",
+          "CountryCode": "US",
+          "PostalCode": "76092",
+          "StateCountyProv": {
+            "StateCode": "TX"
+          },
+          "StreetNmbr": "3150 SABRE DRIVE"
+        },
+        "Ticketing": {
+          "TicketType": "7TAW"
+        }
+      },
+      "CustomerInfo": {
+        "ContactNumbers": {
+          "ContactNumber": [
+            {
+              "NameNumber": "1.1",
+              "Phone": "202-555-0137",
+              "PhoneUseType": "H"
+            }
+          ]
+        },
+        "PersonName": [
+          {
+            "NameNumber": "1.1",
+            "NameReference": "ABC123",
+            "PassengerType": "ADT",
+            "GivenName": "WIELGACHNY",
+            "Surname": "DZIK"
+          }
+        ]
+      }
+    },
+    "AirBook": {
+      "HaltOnStatus": [
+        {
+          "Code": "HL"
+        },
+        {
+          "Code": "KK"
+        },
+        {
+          "Code": "LL"
+        },
+        {
+          "Code": "NN"
+        },
+        {
+          "Code": "NO"
+        },
+        {
+          "Code": "UC"
+        },
+        {
+          "Code": "US"
+        }
+      ],
+      "OriginDestinationInformation": {
+        "FlightSegment": [
+          {
+            "ArrivalDateTime": "2020-03-09T15:11:00",
+            "DepartureDateTime": "2020-03-09T10:27:00",
+            "FlightNumber": "2923",
+            "NumberInParty": "1",
+            "ResBookDesigCode": "Y",
+            "Status": "NN",
+            "DestinationLocation": {
+              "LocationCode": "DFW"
+            },
+            "MarketingAirline": {
+              "Code": "AA",
+              "FlightNumber": "2923"
+            },
+            "OriginLocation": {
+              "LocationCode": "LAS"
+            }
+          }
+        ]
+      },
+      "RedisplayReservation": {
+        "NumAttempts": 10,
+        "WaitInterval": 300
+      }
+    },
+    "AirPrice": [
+      {
+        "PriceRequestInformation": {
+          "Retain": true,
+          "OptionalQualifiers": {
+            "FOP_Qualifiers": {
+              "BasicFOP": {
+                "Type": "CK"
+              }
+            },
+            "PricingQualifiers": {
+              "PassengerType": [
+                {
+                  "Code": "ADT",
+                  "Quantity": "1"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "VehicleBook": {
+      "RentalPaymentPrefs": {
+        "GuaranteePrepaid": {
+          "Type": "G",
+          "PaymentCard": {
+            "CardCode": "VI",
+            "CardNumber": 4444333322221111,
+            "ExpiryMonth": 12,
+            "ExpiryYear": 2021,
+            "FullCardHolderName": {
+              "LastName": "DZIK"
+            }
+          }
+        }
+      },
+      "VehPrefs": {
+        "VehPref": {
+          "VehType": "CCAR"
+        }
+      },
+      "VehRentalCore": {
+        "PickUpDate": "2020-03-16",
+        "PickUpTime": "09:00",
+        "Quantity": 1,
+        "ReturnDate": "2020-03-23",
+        "ReturnTime": "19:00",
+        "PickUpLocation": {
+          "LocationCode": "LAS"
+        }
+      },
+      "VendorPrefs": {
+        "VendorPref": {
+          "Code": "ZL"
+        }
+      }
+    },
+    "HotelBook": {
+      "BookingInfo": {
+        "BookingKey": "b6bfc130-5588-4302-a0d4-4b023d98b9f4"
+      },
+      "Rooms": {
+        "Room": [
+          {
+            "Guests": {
+              "Guest": [
+                {
+                  "Contact": {
+                    "Phone": "202-555-0137"
+                  },
+                  "FirstName": "WIELGACHNY",
+                  "LastName": "DZIK",
+                  "Index": 1,
+                  "LeadGuest": true,
+                  "Type": 10,
+                  "Email": "services.platform.test@sabre.com"
+                }
+              ]
+            },
+            "RoomIndex": 1
+          }
+        ]
+      },
+      "PaymentInformation": {
+        "FormOfPayment": {
+          "PaymentCard": {
+            "PaymentType": "CC",
+            "CardCode": "VI",
+            "CardNumber": "4444333322221111",
+            "ExpiryMonth": 12,
+            "ExpiryYear": "2021",
+            "FullCardHolderName": {
+              "FirstName": "WIELGACHNY",
+              "LastName": "DZIK",
+              "Email": "services.platform.test@sabre.com"
+            },
+            "CSC": "123",
+            "Address": {
+              "AddressLine": [
+                "Wadowicka 6"
+              ],
+              "CityName": "Krakow",
+              "StateProvince": {
+                "code": "KR"
+              },
+              "StateProvinceCodes": {
+                "Code": [
+                  {
+                    "content": "KR"
+                  }
+                ]
+              },
+              "PostCode": "30-415",
+              "CountryCodes": {
+                "Code": [
+                  {
+                    "content": "PL"
+                  }
+                ]
+              }
+            },
+            "Phone": {
+              "PhoneNumber": "202-555-0137"
+            }
+          }
+        },
+        "Type": "GUARANTEE"
+      }
+    },
+    "MiscSegment": {
+      "VendorPrefs": {
+        "Airline": {
+          "Code": "AS"
+        }
+      },
+      "DepartureDateTime": "03-14",
+      "NumberInParty": 1,
+      "Text": "TEST OTH MISCELLANEOUS SEGMENT",
+      "Type": "OTH",
+      "OriginLocation": {
+        "LocationCode": "ORD"
+      },
+      "Status": "GK"
+    },
+    "SpecialReqDetails": {
+      "AddRemark": {
+        "RemarkInfo": {
+          "FOP_Remark": {
+            "Type": "CHECK"
+          }
+        }
+      },
+      "SpecialService": {
+        "SpecialServiceInfo": {
+          "SecureFlight": [
+            {
+              "SegmentNumber": "A",
+              "PersonName": {
+                "DateOfBirth": "1990-01-01",
+                "Gender": "M",
+                "NameNumber": "1.1",
+                "GivenName": "WIELGACHNY",
+                "Surname": "DZIK"
+              },
+              "VendorPrefs": {
+                "Airline": {
+                  "Hosted": true
+                }
+              }
+            }
+          ],
+          "Service": [
+            {
+              "SSR_Code": "OTHS",
+              "Text": "CC WIELGACHNY DZIK"
+            }
+          ]
+        }
+      }
+    },
+    "PostProcessing": {
+      "ARUNK": {},
+      "EndTransaction": {
+        "Source": {
+          "ReceivedFrom": "SP TEST"
+        }
+      },
+      "RedisplayReservation": {
+        "waitInterval": 100
+      }
+    }
+  }
+}
