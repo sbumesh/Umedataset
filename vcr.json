@@ -1,0 +1,126 @@
+{
+  "ticketingProvider": "U0",
+  "fileCreationDate": "2019-05-27T13:39:35.000Z",
+  "fileType": "REGULAR",
+  "flights": [
+    {
+      "flightNumber": "123",
+      "flightDate": "05252019",
+      "originCity": "BLR",
+      "flownCoupons": [
+        {
+          "primaryDocumentNumber": "8881234567890",
+          "documentNumber": "8881234567893",
+          "passengerName": "KAMAL R KHAN",
+          "frequentFlyer": {
+            "provider": "U0",
+            "number": "123456"
+          },
+          "serviceCoupon": {
+            "couponNumber": 2,
+            "marketingProvider": "U0",
+            "marketingFlightNumber": "123",
+            "operatingProvider": "U0",
+            "departureTime": "1240",
+            "flownDate": "05252019",
+            "flownBoardPoint": "BLR",
+            "flownOffPoint": "MAA",
+            "classOfService": "Y",
+            "cabin": "Y",
+            "fareBasis": "YEEFF292/CH33",
+            "routing": [
+              "DFWBLR",
+              "BLRMAA",
+              "MAABLR",
+              "BLRDFW"
+            ],
+            "involuntaryReroute": {
+              "reasonCode": "I",
+              "provider": "U0"
+            }
+          }
+        },
+        {
+          "documentNumber": "8881234567841",
+          "passengerName": "RAKHI SAWANT",
+          "frequentFlyer": {
+            "provider": "U0",
+            "number": "9876543"
+          },
+          "serviceCoupon": {
+            "couponNumber": 1,
+            "marketingProvider": "XX",
+            "marketingFlightNumber": "724",
+            "operatingProvider": "U0",
+            "departureTime": "1240",
+            "flownDate": "05252019",
+            "flownBoardPoint": "BLR",
+            "flownOffPoint": "MAA",
+            "classOfService": "Y",
+            "cabin": "Y",
+            "fareBasis": "YEEFF292/CH83",
+            "routing": [
+              "BLRMAA"
+            ],
+            "involuntaryReroute": {
+              "reasonCode": "I",
+              "provider": "U0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "flightNumber": "341",
+      "flightDate": "05252019",
+      "originCity": "DFW",
+      "flownCoupons": [
+        {
+          "documentNumber": "8881234567764",
+          "passengerName": "ARNAB GOSWAMI",
+          "serviceCoupon": {
+            "couponNumber": 2,
+            "marketingProvider": "U0",
+            "marketingFlightNumber": "341",
+            "operatingProvider": "U0",
+            "departureTime": "1940",
+            "flownDate": "05252019",
+            "flownBoardPoint": "DFW",
+            "flownOffPoint": "BLR",
+            "classOfService": "Y",
+            "cabin": "Y",
+            "fareBasis": "YEELL292/CH33",
+            "routing": [
+              "BLRDFW",
+              "DFWBLR"
+            ]
+          }
+        },
+        {
+          "documentNumber": "888123456784",
+          "passengerName": "MALLIKA SHERAWAT",
+          "frequentFlyer": {
+            "provider": "U0",
+            "number": "123456"
+          },
+          "serviceCoupon": {
+            "couponNumber": 1,
+            "marketingProvider": "U0",
+            "marketingFlightNumber": "341",
+            "operatingProvider": "U0",
+            "departureTime": "1940",
+            "flownDate": "05252019",
+            "flownBoardPoint": "DFW",
+            "flownOffPoint": "BLR",
+            "classOfService": "Y",
+            "cabin": "Y",
+            "fareBasis": "YEKLF292/CH33",
+            "routing": [
+              "DFWBLR"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
